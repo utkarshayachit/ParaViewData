@@ -1,0 +1,47 @@
+Dimensions 720 480
+GridFileName mediumGrid.da
+NumberOfArrays 2
+temperature mediumTemperature
+salinity mediumSalinity
+NumberOfDepthValues 40
+5
+15.1
+25.3
+35.8
+46.6
+58  
+70  
+82.9
+96.9
+112.3
+129.5
+149  
+171.4
+197.8
+229.5
+268.5
+317.7
+381.4
+465.9
+579.3
+729.4
+918.4
+1139.2
+1378.6
+1625.7
+1875.1
+2125  
+2375  
+2625  
+2875  
+3125  
+3375  
+3625  
+3875  
+4125  
+4375  
+4625  
+4875  
+5125  
+5375  
+
