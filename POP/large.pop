@@ -1,9 +1,11 @@
 Dimensions 3600 2400
 GridFileName grid.da
+
 NumberOfArrays 2
-temperature
-salinity
-NumberOfDepthValues 4
+temperature temperature
+salinity salinity
+
+NumberOfDepthValues 1
 5
 15.1
 25.3
