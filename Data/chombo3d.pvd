@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<VTKFile type="Collection" version="0.1" byte_order="LittleEndian" compressor="vtkZLibDataCompressor">
+  <Collection>
+    <DataSet part="0" file="chombo3d/chombo3d_0.vti"/>
+    <DataSet part="1" file="chombo3d/chombo3d_1.vti"/>
+    <DataSet part="2" file="chombo3d/chombo3d_2.vti"/>
+    <DataSet part="3" file="chombo3d/chombo3d_3.vti"/>
+    <DataSet part="4" file="chombo3d/chombo3d_4.vti"/>
+    <DataSet part="5" file="chombo3d/chombo3d_5.vti"/>
+    <DataSet part="6" file="chombo3d/chombo3d_6.vti"/>
+    <DataSet part="7" file="chombo3d/chombo3d_7.vti"/>
+    <DataSet part="8" file="chombo3d/chombo3d_8.vti"/>
+    <DataSet part="9" file="chombo3d/chombo3d_9.vti"/>
+    <DataSet part="10" file="chombo3d/chombo3d_10.vti"/>
+    <DataSet part="11" file="chombo3d/chombo3d_11.vti"/>
+    <DataSet part="12" file="chombo3d/chombo3d_12.vti"/>
+    <DataSet part="13" file="chombo3d/chombo3d_13.vti"/>
+    <DataSet part="14" file="chombo3d/chombo3d_14.vti"/>
+    <DataSet part="15" file="chombo3d/chombo3d_15.vti"/>
+  </Collection>
+</VTKFile>
