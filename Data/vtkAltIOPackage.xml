@@ -1,0 +1,48 @@
+<ModuleInterfaces>
+ <Library name="vtkAltIOTCL"/>
+ <Module name="XMLPolyDataReader"
+         root_name="XMLPolyDataReader" 
+         output="vtkPolyData" 
+         class="vtkPVReaderModule"
+         module_type="Reader"
+         extensions=".xml"
+         file_description="VTK XML">
+  <Source type="vtkXMLPolyDataReader"/>
+ </Module>
+ <Module name="XMLUnstructuredGridReader"
+         root_name="XMLUnstructuredGridReader" 
+         output="vtkUnstructuredGrid" 
+         class="vtkPVReaderModule"
+         module_type="Reader"
+         extensions=".xml"
+         file_description="VTK XML">
+  <Source type="vtkXMLUnstructuredGridReader"/>
+ </Module>
+ <Module name="XMLImageDataReader"
+         root_name="XMLImageDataReader" 
+         output="vtkImageData" 
+         class="vtkPVReaderModule"
+         module_type="Reader"
+         extensions=".xml"
+         file_description="VTK XML">
+  <Source type="vtkXMLImageDataReader"/>
+ </Module>
+ <Module name="XMLStructuredGridReader"
+         root_name="XMLStructuredGridReader" 
+         output="vtkStructuredGrid" 
+         class="vtkPVReaderModule"
+         module_type="Reader"
+         extensions=".xml"
+         file_description="VTK XML">
+  <Source type="vtkXMLStructuredGridReader"/>
+ </Module>
+ <Module name="XMLRectilinearGridReader"
+         root_name="XMLRectilinearGridReader" 
+         output="vtkRectilinearGrid" 
+         class="vtkPVReaderModule"
+         module_type="Reader"
+         extensions=".xml"
+         file_description="VTK XML">
+  <Source type="vtkXMLRectilinearGridReader"/>
+ </Module>
+</ModuleInterfaces>
