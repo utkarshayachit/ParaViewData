@@ -1,5 +1,5 @@
 Dimensions 720 480
-GridFileName mediumGrid.da
+GridFileName "c:/mirror/POP/mediumGrid.da"
 
 NumberOfArrays 1
 Temperature medium_temperature 0

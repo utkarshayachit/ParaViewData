@@ -7,7 +7,7 @@ NumberOfArrays 2
 Salinity e:/POP/slices/full_salt 0
 Temperature e:/POP/slices/full_temperature 0
 
-NumberOfDepthValues 1
+NumberOfDepthValues 40
 5
 15.1
 25.3
