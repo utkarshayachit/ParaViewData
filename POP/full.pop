@@ -4,8 +4,8 @@ GridFileName c:/mirror/POP/grid.da
 ArrayFileDimensionality 2
 
 NumberOfArrays 2
-Salinity c:/mirror/POP/slices/full_salt 0
-Temperature c:/mirror/POP/slices/full_temperature 0
+Salinity e:/POP/slices/full_salt 0
+Temperature e:/POP/slices/full_temperature 0
 
 NumberOfDepthValues 1
 5
