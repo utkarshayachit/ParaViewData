@@ -1,5 +1,5 @@
 Cone1
-ShrinkPD0
+Shrink0
 Sphere1
 Cyl0
 VectorText0
