@@ -37,7 +37,7 @@ CELL_DATA 8
 SCALARS scalars float
 LOOKUP_TABLE default
 0 0.4 0.4 0 0.4 0 0 0.4 
-FIELD FieldData 3
+FIELD FieldData 4
 cRamp1 1 8 float
 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 
 cRamp2 1 8 float
@@ -46,6 +46,11 @@ cVects 3 8 float
 -1 -1 -1 -1 -1 1 -1 1 -1 
 -1 1 1 1 -1 -1 1 -1 1 
 1 1 -1 1 1 1 
+cv2 3 8 float
+0 -2 -1 0 -2 1 0 2 -1 
+-1 2 1 2 -1 -2 1 -2 1 
+2 2 -1 2 2 1 
+
 POINT_DATA 27
 SCALARS scalars float
 LOOKUP_TABLE default
@@ -53,7 +58,7 @@ LOOKUP_TABLE default
 0.4 1 0.4 1 0.4 1 0.4 1 0.4 
 0.4 0.4 0.4 0.4 1 0.4 0.4 0.4 0.4 
 
-FIELD FieldData 4
+FIELD FieldData 5
 xRamp 1 27 float
 0 0 0 0 0 0 0 0 0 
 0.4 0.4 0.4 0.4 0.4 0.4 0.4 0.4 0.4 
@@ -97,5 +102,34 @@ outVect 3 27 float
 1 1 -1 
 1 1 0 
 1 1 1 
+
+vect2 3 27 float
+-1 -1 0 
+-1 -1 1 
+-1 -1 2 
+-1 0 -1 
+-1 0 0 
+-1 0 1 
+-1 1 -2 
+-1 1 -1
+-1 1 0
+0 -1 0 
+0 -1 1 
+0 -1 2 
+0 0 -1 
+0 0 0 
+0 0 1 
+0 1 -2 
+0 1 -1
+0 1 0 
+1 -1 0 
+1 -1 1 
+1 -1 2 
+1 0 -1 
+1 0 0 
+1 0 1 
+1 1 -2 
+1 1 -1
+1 1 0
 
 
