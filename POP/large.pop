@@ -1,11 +1,11 @@
-Dimensions 3600 2400
-GridFileName grid.da
+Dimensions 1800 1200
+GridFileName largeGrid.da
 
 NumberOfArrays 2
-temperature temperature
-salinity salinity
+Temperature largeTemperature
+Salinity largeSalinity
 
-NumberOfDepthValues 1
+NumberOfDepthValues 40
 5
 15.1
 25.3
