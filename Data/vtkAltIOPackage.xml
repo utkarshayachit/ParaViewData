@@ -98,6 +98,7 @@
  <Writer input="vtkDataSet" 
          class="vtkPVWriter"
          writer="vtkXMLPDataSetWriter"
+         parallel="1"
          extension=".xpvtk"
          file_description="PVTK XML Files"/>
 </ModuleInterfaces>
