@@ -1,5 +1,7 @@
 
 proc pvFileTest { ValidFileName } {
+  
+  global Application
 
   set TestFileName "out.txt"
 
@@ -37,7 +39,7 @@ proc pvFileTest { ValidFileName } {
     if {$ch1EndFlag || $ch2EndFlag} {
       close $ch1
       close $ch2
-      Application SetExitStatus 1
+      $Application SetExitStatus 1
       return
     }
 
@@ -47,7 +49,7 @@ proc pvFileTest { ValidFileName } {
     if { $ch1Char != $ch2Char} {
       close $ch1
       close $ch2
-      Application SetExitStatus 1
+      $Application SetExitStatus 1
       return
     }
   }
