@@ -2,16 +2,16 @@
   <Module name="testConeSource" root_name="testCone" 
           output="vtkPolyData" module_type="Source">
     <Source class="vtkConeSource"/>
-    <VectorEntry variable="Resolution" type="int" 
+    <VectorEntry variable="Resolution" type="int" trace_name="Resolution"
           help="Set the number of faces on this cone"
           default_value="6"/>
-    <VectorEntry variable="Radius" type="float" 
+    <VectorEntry variable="Radius" type="float" trace_name="Radius"
           help="Set the radius of the widest part of the cone"
           default_value="0.5"/>
-    <VectorEntry variable="Height" type="float" 
+    <VectorEntry variable="Height" type="float" trace_name="Height"
           help="Set the height of the cone"
           default_value="1.0"/>
-    <LabeledToggle variable="Capping" 
+    <LabeledToggle variable="Capping" trace_name="Capping"
           help="Set whether to draw the base of the cone"
           default_value="1"/>
   </Module>
