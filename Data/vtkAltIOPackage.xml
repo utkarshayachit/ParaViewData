@@ -3,7 +3,7 @@
  <Module name="XMLPolyDataReader"
          root_name="XMLPolyDataReader" 
          output="vtkPolyData" 
-         class="vtkPVReaderModule"
+         class="vtkPVAdvancedReaderModule"
          module_type="Reader"
          extensions=".vtp"
          file_description="VTK PolyData Files">
@@ -14,7 +14,7 @@
  <Module name="XMLUnstructuredGridReader"
          root_name="XMLUnstructuredGridReader" 
          output="vtkUnstructuredGrid" 
-         class="vtkPVReaderModule"
+         class="vtkPVAdvancedReaderModule"
          module_type="Reader"
          extensions=".vtu"
          file_description="VTK UnstructuredGrid Files">
@@ -25,7 +25,7 @@
  <Module name="XMLImageDataReader"
          root_name="XMLImageDataReader" 
          output="vtkImageData" 
-         class="vtkPVReaderModule"
+         class="vtkPVAdvancedReaderModule"
          module_type="Reader"
          extensions=".vti"
          file_description="VTK ImageData Files">
@@ -36,7 +36,7 @@
  <Module name="XMLStructuredGridReader"
          root_name="XMLStructuredGridReader" 
          output="vtkStructuredGrid" 
-         class="vtkPVReaderModule"
+         class="vtkPVAdvancedReaderModule"
          module_type="Reader"
          extensions=".vts"
          file_description="VTK StructuredGrid Files">
@@ -47,7 +47,7 @@
  <Module name="XMLRectilinearGridReader"
          root_name="XMLRectilinearGridReader" 
          output="vtkRectilinearGrid" 
-         class="vtkPVReaderModule"
+         class="vtkPVAdvancedReaderModule"
          module_type="Reader"
          extensions=".vtr"
          file_description="VTK RectilinearGrid Files">
@@ -58,7 +58,7 @@
  <Module name="XMLPPolyDataReader"
          root_name="XMLPPolyDataReader" 
          output="vtkPolyData" 
-         class="vtkPVReaderModule"
+         class="vtkPVAdvancedReaderModule"
          module_type="Reader"
          extensions=".pvtp"
          file_description="PVTK PolyData Files">
@@ -69,7 +69,7 @@
  <Module name="XMLPUnstructuredGridReader"
          root_name="XMLPUnstructuredGridReader" 
          output="vtkUnstructuredGrid" 
-         class="vtkPVReaderModule"
+         class="vtkPVAdvancedReaderModule"
          module_type="Reader"
          extensions=".pvtu"
          file_description="PVTK UnstructuredGrid Files">
@@ -80,7 +80,7 @@
  <Module name="XMLPImageDataReader"
          root_name="XMLPImageDataReader" 
          output="vtkImageData" 
-         class="vtkPVReaderModule"
+         class="vtkPVAdvancedReaderModule"
          module_type="Reader"
          extensions=".pvti"
          file_description="PVTK ImageData Files">
@@ -91,7 +91,7 @@
  <Module name="XMLPStructuredGridReader"
          root_name="XMLPStructuredGridReader" 
          output="vtkStructuredGrid" 
-         class="vtkPVReaderModule"
+         class="vtkPVAdvancedReaderModule"
          module_type="Reader"
          extensions=".pvts"
          file_description="PVTK StructuredGrid Files">
@@ -102,7 +102,7 @@
  <Module name="XMLPRectilinearGridReader"
          root_name="XMLPRectilinearGridReader" 
          output="vtkRectilinearGrid" 
-         class="vtkPVReaderModule"
+         class="vtkPVAdvancedReaderModule"
          module_type="Reader"
          extensions=".pvtr"
          file_description="PVTK RectilinearGrid Files">
