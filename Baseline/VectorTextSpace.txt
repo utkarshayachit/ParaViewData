@@ -1,5 +1,5 @@
-Cone1
-Shrink0
-Sphere1
-Cyl0
-VectorText0
+65
+78
+90
+103
+116
