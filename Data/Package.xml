@@ -3,12 +3,16 @@
           output="vtkPolyData" module_type="Source">
     <Source class="vtkConeSource"/>
     <VectorEntry variable="Resolution" type="int" 
-          help="Set the number of faces on this cone"/>
+          help="Set the number of faces on this cone"
+          default_value="6"/>
     <VectorEntry variable="Radius" type="float" 
-          help="Set the radius of the widest part of the cone"/>
+          help="Set the radius of the widest part of the cone"
+          default_value="0.5"/>
     <VectorEntry variable="Height" type="float" 
-          help="Set the height of the cone"/>
+          help="Set the height of the cone"
+          default_value="1.0"/>
     <LabeledToggle variable="Capping" 
-          help="Set whether to draw the base of the cone"/>
+          help="Set whether to draw the base of the cone"
+          default_value="1"/>
   </Module>
 </ModuleInterfaces>
