@@ -1,4 +1,5 @@
 .git*            export-ignore
 
 *.bin           -crlf
+*.h5            -crlf
 *.png           -crlf
