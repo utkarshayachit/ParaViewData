@@ -1,0 +1,14 @@
+<ModuleInterfaces>
+ <Module name="HDF5RawImageReader"
+         root_name="HDF5RawImageReader"
+         output="vtkImageData"
+         class="vtkPVAdvancedReaderModule"
+         module_type="Reader"
+         extensions=".h5"
+         file_description="HDF5 ImageData Files">
+  <Source class="vtkHDF5RawImageReader"/>
+  <VectorEntry length="3" variable="Stride" trace_name="Stride" type="int" 
+               help="Read a subset of data spaced by the stride."/>
+  <ArraySelection attribute_name="Point"/>
+ </Module>
+</ModuleInterfaces>
