@@ -38,11 +38,11 @@ SCALARS scalars float
 LOOKUP_TABLE default
 0 0.4 0.4 0 0.4 0 0 0.4 
 FIELD FieldData 3
-ramp1 1 8 float
+cRamp1 1 8 float
 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 
-ramp2 1 8 float
+cRamp2 1 8 float
 8.1 7.2 6.3 5.4 4.5 3.6 2.7 1.8 
-vects 3 8 float
+cVects 3 8 float
 -1 -1 -1 -1 -1 1 -1 1 -1 
 -1 1 1 1 -1 -1 1 -1 1 
 1 1 -1 1 1 1 
