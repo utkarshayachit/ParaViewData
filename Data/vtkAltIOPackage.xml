@@ -5,7 +5,7 @@
          output="vtkPolyData" 
          class="vtkPVReaderModule"
          module_type="Reader"
-         extensions=".xml"
+         extensions=".xvtk"
          file_description="VTK XML">
   <Source type="vtkXMLPolyDataReader"/>
  </Module>
@@ -14,7 +14,7 @@
          output="vtkUnstructuredGrid" 
          class="vtkPVReaderModule"
          module_type="Reader"
-         extensions=".xml"
+         extensions=".xvtk"
          file_description="VTK XML">
   <Source type="vtkXMLUnstructuredGridReader"/>
  </Module>
@@ -23,7 +23,7 @@
          output="vtkImageData" 
          class="vtkPVReaderModule"
          module_type="Reader"
-         extensions=".xml"
+         extensions=".xvtk"
          file_description="VTK XML">
   <Source type="vtkXMLImageDataReader"/>
  </Module>
@@ -32,7 +32,7 @@
          output="vtkStructuredGrid" 
          class="vtkPVReaderModule"
          module_type="Reader"
-         extensions=".xml"
+         extensions=".xvtk"
          file_description="VTK XML">
   <Source type="vtkXMLStructuredGridReader"/>
  </Module>
@@ -41,7 +41,7 @@
          output="vtkRectilinearGrid" 
          class="vtkPVReaderModule"
          module_type="Reader"
-         extensions=".xml"
+         extensions=".xvtk"
          file_description="VTK XML">
   <Source type="vtkXMLRectilinearGridReader"/>
  </Module>
