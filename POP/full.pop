@@ -1,8 +1,11 @@
 Dimensions 3600 2400
-GridFileName grid.da
+GridFileName c:/mirror/POP/grid.da
 
-NumberOfArrays 1
-Salinity salinity 0
+ArrayFileDimensionality 2
+
+NumberOfArrays 2
+Salinity c:/mirror/POP/slices/full_salt 0
+Temperature c:/mirror/POP/slices/full_temperature 0
 
 NumberOfDepthValues 1
 5
