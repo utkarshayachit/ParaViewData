@@ -1,4 +1,5 @@
 <ModuleInterfaces>
+  <ServerManagerFile name="Package.pvsm"/>
   <Module name="testConeSource" root_name="testCone" 
           output="vtkPolyData" module_type="Source">
     <Source class="vtkConeSource"/>
