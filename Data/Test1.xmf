@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" [
-<!ENTITY HeavyData "/home/andy/Test1.h5">
+<!ENTITY HeavyData "Test1.h5">
 ]>
 
 
@@ -13,7 +13,7 @@
            DataType="Int"
            Dimensions="18 4"
            Format="HDF">
-             /home/andy/Test1.h5:/Unnamed/Connections
+             Test1.h5:/Unnamed/Connections
         </DataStructure>
       </Topology>
       <Geometry Type="XYZ">
@@ -22,7 +22,7 @@
            Precision="4"
            Dimensions="16 3"
            Format="HDF">
-           /home/andy/Test1.h5:/Unnamed/XYZ
+           Test1.h5:/Unnamed/XYZ
           
         </DataStructure>
       </Geometry>
@@ -34,7 +34,7 @@
            Precision="8"
            Dimensions="16"
            Format="HDF">
-           /home/andy/Test1.h5:/Unnamed/DataOne
+           Test1.h5:/Unnamed/DataOne
           
         </DataStructure>
       </Attribute>
@@ -46,7 +46,7 @@
            Precision="8"
            Dimensions="16"
            Format="HDF">
-           /home/andy/Test1.h5:/Unnamed/DataTwo
+           Test1.h5:/Unnamed/DataTwo
           
         </DataStructure>
       </Attribute>
