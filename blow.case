@@ -1,0 +1,29 @@
+# Plastic blow molding of car bumper
+
+FORMAT
+type:   ensight gold
+
+GEOMETRY
+model:  blow.geo
+
+VARIABLE
+vector per node:        displacement0   blow.disp0
+vector per node:        displacement1   blow.disp1
+vector per node:        displacement2   blow.disp2
+vector per node:        displacement3   blow.disp3
+vector per node:        displacement4   blow.disp4
+vector per node:        displacement5   blow.disp5
+vector per node:        displacement6   blow.disp6
+vector per node:        displacement7   blow.disp7
+vector per node:        displacement8   blow.disp8
+vector per node:        displacement9   blow.disp9
+scalar per node:        thickness0      blow.thick0
+scalar per node:        thickness1      blow.thick1
+scalar per node:        thickness2      blow.thick2
+scalar per node:        thickness3      blow.thick3
+scalar per node:        thickness4      blow.thick4
+scalar per node:        thickness5      blow.thick5
+scalar per node:        thickness6      blow.thick6
+scalar per node:        thickness7      blow.thick7
+scalar per node:        thickness8      blow.thick8
+scalar per node:        thickness9      blow.thick9
