@@ -45,4 +45,59 @@
          file_description="VTK XML">
   <Source type="vtkXMLRectilinearGridReader"/>
  </Module>
+ <Module name="XMLPPolyDataReader"
+         root_name="XMLPPolyDataReader" 
+         output="vtkPolyData" 
+         class="vtkPVReaderModule"
+         module_type="Reader"
+         extensions=".xpvtk"
+         file_description="PVTK XML">
+  <Source type="vtkXMLPPolyDataReader"/>
+ </Module>
+ <Module name="XMLPUnstructuredGridReader"
+         root_name="XMLPUnstructuredGridReader" 
+         output="vtkUnstructuredGrid" 
+         class="vtkPVReaderModule"
+         module_type="Reader"
+         extensions=".xpvtk"
+         file_description="PVTK XML">
+  <Source type="vtkXMLPUnstructuredGridReader"/>
+ </Module>
+ <Module name="XMLPImageDataReader"
+         root_name="XMLPImageDataReader" 
+         output="vtkImageData" 
+         class="vtkPVReaderModule"
+         module_type="Reader"
+         extensions=".xpvtk"
+         file_description="PVTK XML">
+  <Source type="vtkXMLPImageDataReader"/>
+ </Module>
+ <Module name="XMLPStructuredGridReader"
+         root_name="XMLPStructuredGridReader" 
+         output="vtkStructuredGrid" 
+         class="vtkPVReaderModule"
+         module_type="Reader"
+         extensions=".xpvtk"
+         file_description="PVTK XML">
+  <Source type="vtkXMLPStructuredGridReader"/>
+ </Module>
+ <Module name="XMLPRectilinearGridReader"
+         root_name="XMLPRectilinearGridReader" 
+         output="vtkRectilinearGrid" 
+         class="vtkPVReaderModule"
+         module_type="Reader"
+         extensions=".xpvtk"
+         file_description="PVTK XML">
+  <Source type="vtkXMLPRectilinearGridReader"/>
+ </Module>
+ <Writer input="vtkDataSet" 
+         class="vtkPVWriter"
+         writer="vtkXMLDataSetWriter"
+         extension=".xvtk"
+         file_description="VTK XML Files"/>
+<!-- <Writer input="vtkDataSet" 
+         class="vtkPVWriter"
+         writer="vtkXMLPDataSetWriter"
+         extension=".xpvtk"
+         file_description="PVTK XML Files"/> -->
 </ModuleInterfaces>
