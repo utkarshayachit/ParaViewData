@@ -1,11 +1,14 @@
 Dimensions 720 480
 GridFileName mediumGrid.da
 
-NumberOfArrays 2
-Temperature mediumTemperature
-Salinity mediumSalinity
+NumberOfArrays 1
+Temperature medium_temperature 0
 
-NumberOfDepthValues 40
+Flow 2
+u medium_u 0
+v medium_v 0
+
+NumberOfDepthValues 1
 5
 15.1
 25.3
