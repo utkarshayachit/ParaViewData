@@ -14,7 +14,8 @@ proc pvImageTest { ValidImageName threshold } {
 	} else {
 	    _temp_pngw Delete
 	    _temp_w2if Delete 
-	    Application Exit
+	    Application SetExitStatus 2
+	    return
 	}
     }
 
