@@ -10,7 +10,10 @@ proc pvImageTest { ValidImageName threshold } {
 	    _temp_pngw SetFileName $ValidImageName
 	    _temp_pngw SetInput [_temp_w2if GetOutput]
 	    _temp_pngw Write
+	    _temp_pngw Delete
 	} else {
+	    _temp_pngw Delete
+	    _temp_w2if Delete 
 	    Application Exit
 	}
     }
