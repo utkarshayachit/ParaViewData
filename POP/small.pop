@@ -1,8 +1,10 @@
 Dimensions 360 240
 GridFileName smallGrid.da
+
 NumberOfArrays 2
 temperature smallTemperature
 salinity smallSalinity
+
 NumberOfDepthValues 40
 5
 15.1
