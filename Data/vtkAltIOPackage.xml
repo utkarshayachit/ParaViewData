@@ -8,6 +8,8 @@
          extensions=".vtp"
          file_description="VTK PolyData Files">
   <Source type="vtkXMLPolyDataReader"/>
+  <ArraySelection attribute_name="Point" />
+  <ArraySelection attribute_name="Cell" />
  </Module>
  <Module name="XMLUnstructuredGridReader"
          root_name="XMLUnstructuredGridReader" 
@@ -17,6 +19,8 @@
          extensions=".vtu"
          file_description="VTK UnstructuredGrid Files">
   <Source type="vtkXMLUnstructuredGridReader"/>
+  <ArraySelection attribute_name="Point" />
+  <ArraySelection attribute_name="Cell" />
  </Module>
  <Module name="XMLImageDataReader"
          root_name="XMLImageDataReader" 
@@ -26,6 +30,8 @@
          extensions=".vti"
          file_description="VTK ImageData Files">
   <Source type="vtkXMLImageDataReader"/>
+  <ArraySelection attribute_name="Point" />
+  <ArraySelection attribute_name="Cell" />
  </Module>
  <Module name="XMLStructuredGridReader"
          root_name="XMLStructuredGridReader" 
@@ -35,6 +41,8 @@
          extensions=".vts"
          file_description="VTK StructuredGrid Files">
   <Source type="vtkXMLStructuredGridReader"/>
+  <ArraySelection attribute_name="Point" />
+  <ArraySelection attribute_name="Cell" />
  </Module>
  <Module name="XMLRectilinearGridReader"
          root_name="XMLRectilinearGridReader" 
@@ -44,6 +52,8 @@
          extensions=".vtr"
          file_description="VTK RectilinearGrid Files">
   <Source type="vtkXMLRectilinearGridReader"/>
+  <ArraySelection attribute_name="Point" />
+  <ArraySelection attribute_name="Cell" />
  </Module>
  <Module name="XMLPPolyDataReader"
          root_name="XMLPPolyDataReader" 
@@ -53,6 +63,8 @@
          extensions=".pvtp"
          file_description="PVTK PolyData Files">
   <Source type="vtkXMLPPolyDataReader"/>
+  <ArraySelection attribute_name="Point" />
+  <ArraySelection attribute_name="Cell" />
  </Module>
  <Module name="XMLPUnstructuredGridReader"
          root_name="XMLPUnstructuredGridReader" 
@@ -62,6 +74,8 @@
          extensions=".pvtu"
          file_description="PVTK UnstructuredGrid Files">
   <Source type="vtkXMLPUnstructuredGridReader"/>
+  <ArraySelection attribute_name="Point" />
+  <ArraySelection attribute_name="Cell" />
  </Module>
  <Module name="XMLPImageDataReader"
          root_name="XMLPImageDataReader" 
@@ -71,6 +85,8 @@
          extensions=".pvti"
          file_description="PVTK ImageData Files">
   <Source type="vtkXMLPImageDataReader"/>
+  <ArraySelection attribute_name="Point" />
+  <ArraySelection attribute_name="Cell" />
  </Module>
  <Module name="XMLPStructuredGridReader"
          root_name="XMLPStructuredGridReader" 
@@ -80,6 +96,8 @@
          extensions=".pvts"
          file_description="PVTK StructuredGrid Files">
   <Source type="vtkXMLPStructuredGridReader"/>
+  <ArraySelection attribute_name="Point" />
+  <ArraySelection attribute_name="Cell" />
  </Module>
  <Module name="XMLPRectilinearGridReader"
          root_name="XMLPRectilinearGridReader" 
@@ -89,6 +107,8 @@
          extensions=".pvtr"
          file_description="PVTK RectilinearGrid Files">
   <Source type="vtkXMLPRectilinearGridReader"/>
+  <ArraySelection attribute_name="Point" />
+  <ArraySelection attribute_name="Cell" />
  </Module>
  <Writer input="vtkPolyData" 
          class="vtkPVWriter"
