@@ -1,7 +1,7 @@
 <ModuleInterfaces>
   <Module name="testConeSource" root_name="testCone" 
           output="vtkPolyData" module_type="Source">
-    <Source type="vtkConeSource"/>
+    <Source class="vtkConeSource"/>
     <VectorEntry variable="Resolution" type="int" 
           help="Set the number of faces on this cone"/>
     <VectorEntry variable="Radius" type="float" 
