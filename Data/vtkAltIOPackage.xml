@@ -5,8 +5,8 @@
          output="vtkPolyData" 
          class="vtkPVReaderModule"
          module_type="Reader"
-         extensions=".xvtk"
-         file_description="VTK XML">
+         extensions=".vtp"
+         file_description="VTK PolyData Files">
   <Source type="vtkXMLPolyDataReader"/>
  </Module>
  <Module name="XMLUnstructuredGridReader"
@@ -14,8 +14,8 @@
          output="vtkUnstructuredGrid" 
          class="vtkPVReaderModule"
          module_type="Reader"
-         extensions=".xvtk"
-         file_description="VTK XML">
+         extensions=".vtu"
+         file_description="VTK UnstructuredGrid Files">
   <Source type="vtkXMLUnstructuredGridReader"/>
  </Module>
  <Module name="XMLImageDataReader"
@@ -23,8 +23,8 @@
          output="vtkImageData" 
          class="vtkPVReaderModule"
          module_type="Reader"
-         extensions=".xvtk"
-         file_description="VTK XML">
+         extensions=".vti"
+         file_description="VTK ImageData Files">
   <Source type="vtkXMLImageDataReader"/>
  </Module>
  <Module name="XMLStructuredGridReader"
@@ -32,8 +32,8 @@
          output="vtkStructuredGrid" 
          class="vtkPVReaderModule"
          module_type="Reader"
-         extensions=".xvtk"
-         file_description="VTK XML">
+         extensions=".vts"
+         file_description="VTK StructuredGrid Files">
   <Source type="vtkXMLStructuredGridReader"/>
  </Module>
  <Module name="XMLRectilinearGridReader"
@@ -41,8 +41,8 @@
          output="vtkRectilinearGrid" 
          class="vtkPVReaderModule"
          module_type="Reader"
-         extensions=".xvtk"
-         file_description="VTK XML">
+         extensions=".vtr"
+         file_description="VTK RectilinearGrid Files">
   <Source type="vtkXMLRectilinearGridReader"/>
  </Module>
  <Module name="XMLPPolyDataReader"
@@ -50,8 +50,8 @@
          output="vtkPolyData" 
          class="vtkPVReaderModule"
          module_type="Reader"
-         extensions=".xpvtk"
-         file_description="PVTK XML">
+         extensions=".pvtp"
+         file_description="PVTK PolyData Files">
   <Source type="vtkXMLPPolyDataReader"/>
  </Module>
  <Module name="XMLPUnstructuredGridReader"
@@ -59,8 +59,8 @@
          output="vtkUnstructuredGrid" 
          class="vtkPVReaderModule"
          module_type="Reader"
-         extensions=".xpvtk"
-         file_description="PVTK XML">
+         extensions=".pvtu"
+         file_description="PVTK UnstructuredGrid Files">
   <Source type="vtkXMLPUnstructuredGridReader"/>
  </Module>
  <Module name="XMLPImageDataReader"
@@ -68,8 +68,8 @@
          output="vtkImageData" 
          class="vtkPVReaderModule"
          module_type="Reader"
-         extensions=".xpvtk"
-         file_description="PVTK XML">
+         extensions=".pvti"
+         file_description="PVTK ImageData Files">
   <Source type="vtkXMLPImageDataReader"/>
  </Module>
  <Module name="XMLPStructuredGridReader"
@@ -77,8 +77,8 @@
          output="vtkStructuredGrid" 
          class="vtkPVReaderModule"
          module_type="Reader"
-         extensions=".xpvtk"
-         file_description="PVTK XML">
+         extensions=".pvts"
+         file_description="PVTK StructuredGrid Files">
   <Source type="vtkXMLPStructuredGridReader"/>
  </Module>
  <Module name="XMLPRectilinearGridReader"
@@ -86,19 +86,63 @@
          output="vtkRectilinearGrid" 
          class="vtkPVReaderModule"
          module_type="Reader"
-         extensions=".xpvtk"
-         file_description="PVTK XML">
+         extensions=".pvtr"
+         file_description="PVTK RectilinearGrid Files">
   <Source type="vtkXMLPRectilinearGridReader"/>
  </Module>
- <Writer input="vtkDataSet" 
+ <Writer input="vtkPolyData" 
          class="vtkPVWriter"
-         writer="vtkXMLDataSetWriter"
-         extension=".xvtk"
-         file_description="VTK XML Files"/>
- <Writer input="vtkDataSet" 
+         writer="vtkXMLPolyDataWriter"
+         extension=".vtp"
+         file_description="VTK PolyData Files"/>
+ <Writer input="vtkUnstructuredGrid" 
          class="vtkPVWriter"
-         writer="vtkXMLPDataSetWriter"
+         writer="vtkXMLUnstructuredGridWriter"
+         extension=".vtu"
+         file_description="VTK UnstructuredGrid Files"/>
+ <Writer input="vtkStructuredGrid" 
+         class="vtkPVWriter"
+         writer="vtkXMLStructuredGridWriter"
+         extension=".vts"
+         file_description="VTK StructuredGrid Files"/>
+ <Writer input="vtkRectilinearGrid" 
+         class="vtkPVWriter"
+         writer="vtkXMLRectilinearGridWriter"
+         extension=".vtr"
+         file_description="VTK RectilinearGrid Files"/>
+ <Writer input="vtkImageData" 
+         class="vtkPVWriter"
+         writer="vtkXMLImageDataWriter"
+         extension=".vti"
+         file_description="VTK ImageData Files"/>
+ <Writer input="vtkPolyData" 
+         class="vtkPVWriter"
+         writer="vtkXMLPPolyDataWriter"
          parallel="1"
-         extension=".xpvtk"
-         file_description="PVTK XML Files"/>
+         extension=".pvtp"
+         file_description="PVTK PolyData Files"/>
+ <Writer input="vtkUnstructuredGrid" 
+         class="vtkPVWriter"
+         writer="vtkXMLPUnstructuredGridWriter"
+         parallel="1"
+         extension=".pvtu"
+         file_description="PVTK UnstructuredGrid Files"/>
+ <Writer input="vtkStructuredGrid" 
+         class="vtkPVWriter"
+         writer="vtkXMLPStructuredGridWriter"
+         parallel="1"
+         extension=".pvts"
+         file_description="PVTK StructuredGrid Files"/>
+ <Writer input="vtkRectilinearGrid" 
+         class="vtkPVWriter"
+         writer="vtkXMLPRectilinearGridWriter"
+         parallel="1"
+         extension=".pvtr"
+         file_description="PVTK RectilinearGrid Files"/>
+ <Writer input="vtkImageData" 
+         class="vtkPVWriter"
+         writer="vtkXMLPImageDataWriter"
+         parallel="1"
+         extension=".pvti"
+         file_description="PVTK ImageData Files"/>
 </ModuleInterfaces>
