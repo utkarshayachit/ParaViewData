@@ -1,5 +1,4 @@
 <ModuleInterfaces>
- <Library name="vtkAltIOTCL"/>
  <Module name="XMLPolyDataReader"
          root_name="XMLPolyDataReader" 
          output="vtkPolyData" 
