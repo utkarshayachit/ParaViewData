@@ -95,9 +95,9 @@
          writer="vtkXMLDataSetWriter"
          extension=".xvtk"
          file_description="VTK XML Files"/>
-<!-- <Writer input="vtkDataSet" 
+ <Writer input="vtkDataSet" 
          class="vtkPVWriter"
          writer="vtkXMLPDataSetWriter"
          extension=".xpvtk"
-         file_description="PVTK XML Files"/> -->
+         file_description="PVTK XML Files"/>
 </ModuleInterfaces>
