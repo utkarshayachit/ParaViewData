@@ -641,7 +641,7 @@
         <Element index="1" value="0"/>
       </Property>
     </Proxy>
-    <Proxy group="selection_helpers" type="SelectionProxy" id="252">
+    <Proxy group="selection_helpers" type="Selection" id="252">
       <Property name="Mode" id="252.Mode" number_of_elements="1">
         <Element index="0" value="0"/>
         <Domain name="enum" id="252.Mode.enum">
