@@ -1,5 +1,4 @@
 .git*            export-ignore
 
-*.bin           -crlf
 *.ex2           -crlf
 *.png           -crlf
