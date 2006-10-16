@@ -1,23 +1,23 @@
 <ParaView>
   <ServerManagerState>
-    <Proxy group="displays" type="LODDisplay" id="28">
-      <Property name="Input" id="28.Input" number_of_elements="1">
-        <Proxy value="25"/>
-        <Domain name="groups" id="28.Input.groups">
+    <Proxy group="displays" type="LODDisplay" id="25">
+      <Property name="Input" id="25.Input" number_of_elements="1">
+        <Proxy value="22"/>
+        <Domain name="groups" id="25.Input.groups">
           <Group value="sources"/>
           <Group value="filters"/>
           <Group value="glyph_sources"/>
         </Domain>
       </Property>
-      <Property name="LODResolution" id="28.LODResolution" number_of_elements="1">
-        <Element index="0" value="160"/>
-        <Domain name="range" id="28.LODResolution.range">
+      <Property name="LODResolution" id="25.LODResolution" number_of_elements="1">
+        <Element index="0" value="50"/>
+        <Domain name="range" id="25.LODResolution.range">
           <Min index="0" value="0"/>
         </Domain>
       </Property>
-      <Property name="Representation" id="28.Representation" number_of_elements="1">
+      <Property name="Representation" id="25.Representation" number_of_elements="1">
         <Element index="0" value="2"/>
-        <Domain name="enum" id="28.Representation.enum">
+        <Domain name="enum" id="25.Representation.enum">
           <Entry value="0" text="Points"/>
           <Entry value="1" text="Wireframe"/>
           <Entry value="2" text="Surface"/>
@@ -25,20 +25,20 @@
           <Entry value="4" text="Volume"/>
         </Domain>
       </Property>
-      <Property name="Visibility" id="28.Visibility" number_of_elements="1">
+      <Property name="Visibility" id="25.Visibility" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="bool" id="28.Visibility.bool"/>
+        <Domain name="bool" id="25.Visibility.bool"/>
       </Property>
-      <Property name="ClippingPlanes" id="28.ClippingPlanes" number_of_elements="0">
-        <Domain name="groups" id="28.ClippingPlanes.groups">
+      <Property name="ClippingPlanes" id="25.ClippingPlanes" number_of_elements="0">
+        <Domain name="groups" id="25.ClippingPlanes.groups">
           <Group value="implicit_functions"/>
         </Domain>
       </Property>
-      <Property name="Color" id="28.Color" number_of_elements="3">
+      <Property name="Color" id="25.Color" number_of_elements="3">
         <Element index="0" value="1"/>
         <Element index="1" value="1"/>
         <Element index="2" value="1"/>
-        <Domain name="range" id="28.Color.range">
+        <Domain name="range" id="25.Color.range">
           <Min index="0" value="0"/>
           <Min index="1" value="0"/>
           <Min index="2" value="0"/>
@@ -47,95 +47,95 @@
           <Max index="2" value="1"/>
         </Domain>
       </Property>
-      <Property name="ColorArray" id="28.ColorArray" number_of_elements="1">
+      <Property name="ColorArray" id="25.ColorArray" number_of_elements="1">
         <Element index="0" value=""/>
-        <Domain name="array_list" id="28.ColorArray.array_list"/>
+        <Domain name="array_list" id="25.ColorArray.array_list"/>
       </Property>
-      <Property name="ColorMode" id="28.ColorMode" number_of_elements="1">
+      <Property name="ColorMode" id="25.ColorMode" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="enum" id="28.ColorMode.enum">
+        <Domain name="enum" id="25.ColorMode.enum">
           <Entry value="0" text="Default"/>
           <Entry value="1" text="MapScalars"/>
         </Domain>
       </Property>
-      <Property name="ImmediateModeRendering" id="28.ImmediateModeRendering" number_of_elements="1">
+      <Property name="ImmediateModeRendering" id="25.ImmediateModeRendering" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="bool" id="28.ImmediateModeRendering.bool"/>
+        <Domain name="bool" id="25.ImmediateModeRendering.bool"/>
       </Property>
-      <Property name="InterpolateScalarsBeforeMapping" id="28.InterpolateScalarsBeforeMapping" number_of_elements="1">
+      <Property name="InterpolateScalarsBeforeMapping" id="25.InterpolateScalarsBeforeMapping" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="bool" id="28.InterpolateScalarsBeforeMapping.bool"/>
+        <Domain name="bool" id="25.InterpolateScalarsBeforeMapping.bool"/>
       </Property>
-      <Property name="Interpolation" id="28.Interpolation" number_of_elements="1">
+      <Property name="Interpolation" id="25.Interpolation" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="enum" id="28.Interpolation.enum">
+        <Domain name="enum" id="25.Interpolation.enum">
           <Entry value="0" text="Flat"/>
-          <Entry value="1" text="Gourand"/>
+          <Entry value="1" text="Gouraud"/>
           <Entry value="2" text="Phong"/>
         </Domain>
       </Property>
-      <Property name="LineWidth" id="28.LineWidth" number_of_elements="1">
+      <Property name="LineWidth" id="25.LineWidth" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="range" id="28.LineWidth.range">
+        <Domain name="range" id="25.LineWidth.range">
           <Min index="0" value="0"/>
         </Domain>
       </Property>
-      <Property name="LookupTable" id="28.LookupTable" number_of_elements="0">
-        <Domain name="groups" id="28.LookupTable.groups">
+      <Property name="LookupTable" id="25.LookupTable" number_of_elements="0">
+        <Domain name="groups" id="25.LookupTable.groups">
           <Group value="lookup_tables"/>
         </Domain>
       </Property>
-      <Property name="MapScalars" id="28.MapScalars" number_of_elements="1">
+      <Property name="MapScalars" id="25.MapScalars" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="bool" id="28.MapScalars.bool"/>
+        <Domain name="bool" id="25.MapScalars.bool"/>
       </Property>
-      <Property name="Material" id="28.Material" number_of_elements="1">
+      <Property name="Material" id="25.Material" number_of_elements="1">
         <Element index="0" value=""/>
       </Property>
-      <Property name="NumberOfSubPieces" id="28.NumberOfSubPieces" number_of_elements="1">
+      <Property name="NumberOfSubPieces" id="25.NumberOfSubPieces" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="range" id="28.NumberOfSubPieces.range">
+        <Domain name="range" id="25.NumberOfSubPieces.range">
           <Min index="0" value="1"/>
         </Domain>
       </Property>
-      <Property name="Opacity" id="28.Opacity" number_of_elements="1">
+      <Property name="Opacity" id="25.Opacity" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="range" id="28.Opacity.range">
+        <Domain name="range" id="25.Opacity.range">
           <Min index="0" value="0"/>
           <Max index="0" value="1"/>
         </Domain>
       </Property>
-      <Property name="Orientation" id="28.Orientation" number_of_elements="3">
+      <Property name="Orientation" id="25.Orientation" number_of_elements="3">
         <Element index="0" value="0"/>
         <Element index="1" value="0"/>
         <Element index="2" value="0"/>
-        <Domain name="range" id="28.Orientation.range"/>
+        <Domain name="range" id="25.Orientation.range"/>
       </Property>
-      <Property name="Origin" id="28.Origin" number_of_elements="3">
+      <Property name="Origin" id="25.Origin" number_of_elements="3">
         <Element index="0" value="0"/>
         <Element index="1" value="0"/>
         <Element index="2" value="0"/>
-        <Domain name="range" id="28.Origin.range"/>
+        <Domain name="range" id="25.Origin.range"/>
       </Property>
-      <Property name="Pickable" id="28.Pickable" number_of_elements="1">
+      <Property name="Pickable" id="25.Pickable" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="bool" id="28.Pickable.bool"/>
+        <Domain name="bool" id="25.Pickable.bool"/>
       </Property>
-      <Property name="PointSize" id="28.PointSize" number_of_elements="1">
+      <Property name="PointSize" id="25.PointSize" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="range" id="28.PointSize.range">
+        <Domain name="range" id="25.PointSize.range">
           <Min index="0" value="0"/>
         </Domain>
       </Property>
-      <Property name="Position" id="28.Position" number_of_elements="3">
+      <Property name="Position" id="25.Position" number_of_elements="3">
         <Element index="0" value="0"/>
         <Element index="1" value="0"/>
         <Element index="2" value="0"/>
-        <Domain name="range" id="28.Position.range"/>
+        <Domain name="range" id="25.Position.range"/>
       </Property>
-      <Property name="ScalarMode" id="28.ScalarMode" number_of_elements="1">
+      <Property name="ScalarMode" id="25.ScalarMode" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="enum" id="28.ScalarMode.enum">
+        <Domain name="enum" id="25.ScalarMode.enum">
           <Entry value="0" text="Default"/>
           <Entry value="1" text="UsePointData"/>
           <Entry value="2" text="UseCellData"/>
@@ -143,54 +143,54 @@
           <Entry value="4" text="UseCellFieldData"/>
         </Domain>
       </Property>
-      <Property name="ScalarVisibility" id="28.ScalarVisibility" number_of_elements="1">
+      <Property name="ScalarVisibility" id="25.ScalarVisibility" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="bool" id="28.ScalarVisibility.bool"/>
+        <Domain name="bool" id="25.ScalarVisibility.bool"/>
       </Property>
-      <Property name="Scale" id="28.Scale" number_of_elements="3">
+      <Property name="Scale" id="25.Scale" number_of_elements="3">
         <Element index="0" value="1"/>
         <Element index="1" value="1"/>
         <Element index="2" value="1"/>
-        <Domain name="range" id="28.Scale.range"/>
+        <Domain name="range" id="25.Scale.range"/>
       </Property>
-      <Property name="Shading" id="28.Shading" number_of_elements="1">
+      <Property name="Shading" id="25.Shading" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="bool" id="28.Shading.bool"/>
+        <Domain name="bool" id="25.Shading.bool"/>
       </Property>
-      <Property name="Specular" id="28.Specular" number_of_elements="1">
+      <Property name="Specular" id="25.Specular" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="range" id="28.Specular.range">
+        <Domain name="range" id="25.Specular.range">
           <Min index="0" value="0"/>
           <Max index="0" value="1"/>
         </Domain>
       </Property>
-      <Property name="UseLookupTableScalarRange" id="28.UseLookupTableScalarRange" number_of_elements="1">
+      <Property name="UseLookupTableScalarRange" id="25.UseLookupTableScalarRange" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="bool" id="28.UseLookupTableScalarRange.bool"/>
+        <Domain name="bool" id="25.UseLookupTableScalarRange.bool"/>
       </Property>
-      <Property name="UseStrips" id="28.UseStrips" number_of_elements="1">
+      <Property name="UseStrips" id="25.UseStrips" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="bool" id="28.UseStrips.bool"/>
+        <Domain name="bool" id="25.UseStrips.bool"/>
       </Property>
     </Proxy>
-    <Proxy group="displays" type="LODDisplay" id="81">
-      <Property name="Input" id="81.Input" number_of_elements="1">
-        <Proxy value="78"/>
-        <Domain name="groups" id="81.Input.groups">
+    <Proxy group="displays" type="LODDisplay" id="75">
+      <Property name="Input" id="75.Input" number_of_elements="1">
+        <Proxy value="72"/>
+        <Domain name="groups" id="75.Input.groups">
           <Group value="sources"/>
           <Group value="filters"/>
           <Group value="glyph_sources"/>
         </Domain>
       </Property>
-      <Property name="LODResolution" id="81.LODResolution" number_of_elements="1">
-        <Element index="0" value="160"/>
-        <Domain name="range" id="81.LODResolution.range">
+      <Property name="LODResolution" id="75.LODResolution" number_of_elements="1">
+        <Element index="0" value="50"/>
+        <Domain name="range" id="75.LODResolution.range">
           <Min index="0" value="0"/>
         </Domain>
       </Property>
-      <Property name="Representation" id="81.Representation" number_of_elements="1">
+      <Property name="Representation" id="75.Representation" number_of_elements="1">
         <Element index="0" value="2"/>
-        <Domain name="enum" id="81.Representation.enum">
+        <Domain name="enum" id="75.Representation.enum">
           <Entry value="0" text="Points"/>
           <Entry value="1" text="Wireframe"/>
           <Entry value="2" text="Surface"/>
@@ -198,20 +198,20 @@
           <Entry value="4" text="Volume"/>
         </Domain>
       </Property>
-      <Property name="Visibility" id="81.Visibility" number_of_elements="1">
+      <Property name="Visibility" id="75.Visibility" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="bool" id="81.Visibility.bool"/>
+        <Domain name="bool" id="75.Visibility.bool"/>
       </Property>
-      <Property name="ClippingPlanes" id="81.ClippingPlanes" number_of_elements="0">
-        <Domain name="groups" id="81.ClippingPlanes.groups">
+      <Property name="ClippingPlanes" id="75.ClippingPlanes" number_of_elements="0">
+        <Domain name="groups" id="75.ClippingPlanes.groups">
           <Group value="implicit_functions"/>
         </Domain>
       </Property>
-      <Property name="Color" id="81.Color" number_of_elements="3">
+      <Property name="Color" id="75.Color" number_of_elements="3">
         <Element index="0" value="1"/>
         <Element index="1" value="1"/>
         <Element index="2" value="1"/>
-        <Domain name="range" id="81.Color.range">
+        <Domain name="range" id="75.Color.range">
           <Min index="0" value="0"/>
           <Min index="1" value="0"/>
           <Min index="2" value="0"/>
@@ -220,95 +220,95 @@
           <Max index="2" value="1"/>
         </Domain>
       </Property>
-      <Property name="ColorArray" id="81.ColorArray" number_of_elements="1">
+      <Property name="ColorArray" id="75.ColorArray" number_of_elements="1">
         <Element index="0" value=""/>
-        <Domain name="array_list" id="81.ColorArray.array_list"/>
+        <Domain name="array_list" id="75.ColorArray.array_list"/>
       </Property>
-      <Property name="ColorMode" id="81.ColorMode" number_of_elements="1">
+      <Property name="ColorMode" id="75.ColorMode" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="enum" id="81.ColorMode.enum">
+        <Domain name="enum" id="75.ColorMode.enum">
           <Entry value="0" text="Default"/>
           <Entry value="1" text="MapScalars"/>
         </Domain>
       </Property>
-      <Property name="ImmediateModeRendering" id="81.ImmediateModeRendering" number_of_elements="1">
+      <Property name="ImmediateModeRendering" id="75.ImmediateModeRendering" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="bool" id="81.ImmediateModeRendering.bool"/>
+        <Domain name="bool" id="75.ImmediateModeRendering.bool"/>
       </Property>
-      <Property name="InterpolateScalarsBeforeMapping" id="81.InterpolateScalarsBeforeMapping" number_of_elements="1">
+      <Property name="InterpolateScalarsBeforeMapping" id="75.InterpolateScalarsBeforeMapping" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="bool" id="81.InterpolateScalarsBeforeMapping.bool"/>
+        <Domain name="bool" id="75.InterpolateScalarsBeforeMapping.bool"/>
       </Property>
-      <Property name="Interpolation" id="81.Interpolation" number_of_elements="1">
+      <Property name="Interpolation" id="75.Interpolation" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="enum" id="81.Interpolation.enum">
+        <Domain name="enum" id="75.Interpolation.enum">
           <Entry value="0" text="Flat"/>
-          <Entry value="1" text="Gourand"/>
+          <Entry value="1" text="Gouraud"/>
           <Entry value="2" text="Phong"/>
         </Domain>
       </Property>
-      <Property name="LineWidth" id="81.LineWidth" number_of_elements="1">
+      <Property name="LineWidth" id="75.LineWidth" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="range" id="81.LineWidth.range">
+        <Domain name="range" id="75.LineWidth.range">
           <Min index="0" value="0"/>
         </Domain>
       </Property>
-      <Property name="LookupTable" id="81.LookupTable" number_of_elements="0">
-        <Domain name="groups" id="81.LookupTable.groups">
+      <Property name="LookupTable" id="75.LookupTable" number_of_elements="0">
+        <Domain name="groups" id="75.LookupTable.groups">
           <Group value="lookup_tables"/>
         </Domain>
       </Property>
-      <Property name="MapScalars" id="81.MapScalars" number_of_elements="1">
+      <Property name="MapScalars" id="75.MapScalars" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="bool" id="81.MapScalars.bool"/>
+        <Domain name="bool" id="75.MapScalars.bool"/>
       </Property>
-      <Property name="Material" id="81.Material" number_of_elements="1">
+      <Property name="Material" id="75.Material" number_of_elements="1">
         <Element index="0" value=""/>
       </Property>
-      <Property name="NumberOfSubPieces" id="81.NumberOfSubPieces" number_of_elements="1">
+      <Property name="NumberOfSubPieces" id="75.NumberOfSubPieces" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="range" id="81.NumberOfSubPieces.range">
+        <Domain name="range" id="75.NumberOfSubPieces.range">
           <Min index="0" value="1"/>
         </Domain>
       </Property>
-      <Property name="Opacity" id="81.Opacity" number_of_elements="1">
+      <Property name="Opacity" id="75.Opacity" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="range" id="81.Opacity.range">
+        <Domain name="range" id="75.Opacity.range">
           <Min index="0" value="0"/>
           <Max index="0" value="1"/>
         </Domain>
       </Property>
-      <Property name="Orientation" id="81.Orientation" number_of_elements="3">
+      <Property name="Orientation" id="75.Orientation" number_of_elements="3">
         <Element index="0" value="0"/>
         <Element index="1" value="0"/>
         <Element index="2" value="0"/>
-        <Domain name="range" id="81.Orientation.range"/>
+        <Domain name="range" id="75.Orientation.range"/>
       </Property>
-      <Property name="Origin" id="81.Origin" number_of_elements="3">
+      <Property name="Origin" id="75.Origin" number_of_elements="3">
         <Element index="0" value="0"/>
         <Element index="1" value="0"/>
         <Element index="2" value="0"/>
-        <Domain name="range" id="81.Origin.range"/>
+        <Domain name="range" id="75.Origin.range"/>
       </Property>
-      <Property name="Pickable" id="81.Pickable" number_of_elements="1">
+      <Property name="Pickable" id="75.Pickable" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="bool" id="81.Pickable.bool"/>
+        <Domain name="bool" id="75.Pickable.bool"/>
       </Property>
-      <Property name="PointSize" id="81.PointSize" number_of_elements="1">
+      <Property name="PointSize" id="75.PointSize" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="range" id="81.PointSize.range">
+        <Domain name="range" id="75.PointSize.range">
           <Min index="0" value="0"/>
         </Domain>
       </Property>
-      <Property name="Position" id="81.Position" number_of_elements="3">
+      <Property name="Position" id="75.Position" number_of_elements="3">
         <Element index="0" value="0"/>
         <Element index="1" value="0"/>
         <Element index="2" value="0"/>
-        <Domain name="range" id="81.Position.range"/>
+        <Domain name="range" id="75.Position.range"/>
       </Property>
-      <Property name="ScalarMode" id="81.ScalarMode" number_of_elements="1">
+      <Property name="ScalarMode" id="75.ScalarMode" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="enum" id="81.ScalarMode.enum">
+        <Domain name="enum" id="75.ScalarMode.enum">
           <Entry value="0" text="Default"/>
           <Entry value="1" text="UsePointData"/>
           <Entry value="2" text="UseCellData"/>
@@ -316,41 +316,41 @@
           <Entry value="4" text="UseCellFieldData"/>
         </Domain>
       </Property>
-      <Property name="ScalarVisibility" id="81.ScalarVisibility" number_of_elements="1">
+      <Property name="ScalarVisibility" id="75.ScalarVisibility" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="bool" id="81.ScalarVisibility.bool"/>
+        <Domain name="bool" id="75.ScalarVisibility.bool"/>
       </Property>
-      <Property name="Scale" id="81.Scale" number_of_elements="3">
+      <Property name="Scale" id="75.Scale" number_of_elements="3">
         <Element index="0" value="1"/>
         <Element index="1" value="1"/>
         <Element index="2" value="1"/>
-        <Domain name="range" id="81.Scale.range"/>
+        <Domain name="range" id="75.Scale.range"/>
       </Property>
-      <Property name="Shading" id="81.Shading" number_of_elements="1">
+      <Property name="Shading" id="75.Shading" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="bool" id="81.Shading.bool"/>
+        <Domain name="bool" id="75.Shading.bool"/>
       </Property>
-      <Property name="Specular" id="81.Specular" number_of_elements="1">
+      <Property name="Specular" id="75.Specular" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="range" id="81.Specular.range">
+        <Domain name="range" id="75.Specular.range">
           <Min index="0" value="0"/>
           <Max index="0" value="1"/>
         </Domain>
       </Property>
-      <Property name="UseLookupTableScalarRange" id="81.UseLookupTableScalarRange" number_of_elements="1">
+      <Property name="UseLookupTableScalarRange" id="75.UseLookupTableScalarRange" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="bool" id="81.UseLookupTableScalarRange.bool"/>
+        <Domain name="bool" id="75.UseLookupTableScalarRange.bool"/>
       </Property>
-      <Property name="UseStrips" id="81.UseStrips" number_of_elements="1">
+      <Property name="UseStrips" id="75.UseStrips" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="bool" id="81.UseStrips.bool"/>
+        <Domain name="bool" id="75.UseStrips.bool"/>
       </Property>
     </Proxy>
     <Proxy group="rendermodules" type="LODRenderModule" id="5">
       <Property name="Displays" id="5.Displays" number_of_elements="3">
-        <Proxy value="28"/>
-        <Proxy value="81"/>
-        <Proxy value="140"/>
+        <Proxy value="25"/>
+        <Proxy value="75"/>
+        <Proxy value="131"/>
         <Domain name="groups" id="5.Displays.groups">
           <Group value="displays"/>
           <Group value="axes"/>
@@ -358,11 +358,11 @@
         </Domain>
       </Property>
       <Property name="LODResolution" id="5.LODResolution" number_of_elements="1">
-        <Element index="0" value="160"/>
+        <Element index="0" value="50"/>
         <Domain name="range" id="5.LODResolution.range"/>
       </Property>
       <Property name="LODThreshold" id="5.LODThreshold" number_of_elements="1">
-        <Element index="0" value="1e+38"/>
+        <Element index="0" value="5"/>
         <Domain name="range" id="5.LODThreshold.range"/>
       </Property>
       <Property name="RenderInterruptsEnabled" id="5.RenderInterruptsEnabled" number_of_elements="1">
@@ -427,12 +427,12 @@
         </Domain>
       </Property>
       <Property name="CameraClippingRange" id="5.CameraClippingRange" number_of_elements="2">
-        <Element index="0" value="1.22466"/>
-        <Element index="1" value="6.71798"/>
+        <Element index="0" value="2.31387"/>
+        <Element index="1" value="4.64493"/>
       </Property>
       <Property name="CameraClippingRangeInfo" id="5.CameraClippingRangeInfo" number_of_elements="2">
-        <Element index="0" value="1.22466"/>
-        <Element index="1" value="6.71798"/>
+        <Element index="0" value="2.31387"/>
+        <Element index="1" value="4.64493"/>
       </Property>
       <Property name="CameraFocalPoint" id="5.CameraFocalPoint" number_of_elements="3">
         <Element index="0" value="0"/>
@@ -455,14 +455,14 @@
         <Element index="0" value="1"/>
       </Property>
       <Property name="CameraPosition" id="5.CameraPosition" number_of_elements="3">
-        <Element index="0" value="-2.35505"/>
-        <Element index="1" value="1.42674"/>
-        <Element index="2" value="1.80132"/>
+        <Element index="0" value="0"/>
+        <Element index="1" value="0"/>
+        <Element index="2" value="3.34229"/>
       </Property>
       <Property name="CameraPositionInfo" id="5.CameraPositionInfo" number_of_elements="3">
-        <Element index="0" value="-2.35505"/>
-        <Element index="1" value="1.42674"/>
-        <Element index="2" value="1.80132"/>
+        <Element index="0" value="0"/>
+        <Element index="1" value="0"/>
+        <Element index="2" value="3.34229"/>
       </Property>
       <Property name="CameraViewAngle" id="5.CameraViewAngle" number_of_elements="1">
         <Element index="0" value="30"/>
@@ -471,14 +471,14 @@
         <Element index="0" value="30"/>
       </Property>
       <Property name="CameraViewUp" id="5.CameraViewUp" number_of_elements="3">
-        <Element index="0" value="-0.237669"/>
-        <Element index="1" value="0.585871"/>
-        <Element index="2" value="-0.77477"/>
+        <Element index="0" value="0"/>
+        <Element index="1" value="1"/>
+        <Element index="2" value="0"/>
       </Property>
       <Property name="CameraViewUpInfo" id="5.CameraViewUpInfo" number_of_elements="3">
-        <Element index="0" value="-0.237669"/>
-        <Element index="1" value="0.585871"/>
-        <Element index="2" value="-0.77477"/>
+        <Element index="0" value="0"/>
+        <Element index="1" value="1"/>
+        <Element index="2" value="0"/>
       </Property>
       <Property name="EyeAngle" id="5.EyeAngle" number_of_elements="1">
         <Element index="0" value="2"/>
@@ -641,177 +641,177 @@
         <Element index="1" value="0"/>
       </Property>
     </Proxy>
-    <Proxy group="selection_helpers" type="Selection" id="252">
-      <Property name="Mode" id="252.Mode" number_of_elements="1">
+    <Proxy group="selection_helpers" type="Selection" id="125">
+      <Property name="Mode" id="125.Mode" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="enum" id="252.Mode.enum">
+        <Domain name="enum" id="125.Mode.enum">
           <Entry value="0" text="SURFACE"/>
           <Entry value="1" text="FRUSTRUM"/>
         </Domain>
       </Property>
-      <Property name="RenderModule" id="252.RenderModule" number_of_elements="1">
+      <Property name="RenderModule" id="125.RenderModule" number_of_elements="1">
         <Proxy value="5"/>
-        <Domain name="groups" id="252.RenderModule.groups">
+        <Domain name="groups" id="125.RenderModule.groups">
           <Group value="rendermodules"/>
         </Domain>
       </Property>
-      <Property name="Selection" id="252.Selection" number_of_elements="4">
-        <Element index="0" value="309"/>
-        <Element index="1" value="282"/>
-        <Element index="2" value="475"/>
-        <Element index="3" value="55"/>
-        <Domain name="range" id="252.Selection.range"/>
+      <Property name="Selection" id="125.Selection" number_of_elements="4">
+        <Element index="0" value="141"/>
+        <Element index="1" value="181"/>
+        <Element index="2" value="212"/>
+        <Element index="3" value="37"/>
+        <Domain name="range" id="125.Selection.range"/>
       </Property>
-      <Property name="Type" id="252.Type" number_of_elements="1">
+      <Property name="Type" id="125.Type" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="enum" id="252.Type.enum">
+        <Domain name="enum" id="125.Type.enum">
           <Entry value="0" text="SOURCE"/>
           <Entry value="1" text="GEOMETRY"/>
         </Domain>
       </Property>
-      <Property name="CameraClippingRange" id="252.CameraClippingRange" number_of_elements="2">
-        <Element index="0" value="2.26247"/>
-        <Element index="1" value="4.59223"/>
+      <Property name="CameraClippingRange" id="125.CameraClippingRange" number_of_elements="2">
+        <Element index="0" value="2.31387"/>
+        <Element index="1" value="4.64493"/>
       </Property>
-      <Property name="CameraFocalPoint" id="252.CameraFocalPoint" number_of_elements="3">
+      <Property name="CameraFocalPoint" id="125.CameraFocalPoint" number_of_elements="3">
         <Element index="0" value="0"/>
         <Element index="1" value="0"/>
         <Element index="2" value="0"/>
       </Property>
-      <Property name="CameraParallelProjection" id="252.CameraParallelProjection" number_of_elements="1">
+      <Property name="CameraParallelProjection" id="125.CameraParallelProjection" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="bool" id="252.CameraParallelProjection.bool"/>
+        <Domain name="bool" id="125.CameraParallelProjection.bool"/>
       </Property>
-      <Property name="CameraParallelScale" id="252.CameraParallelScale" number_of_elements="1">
+      <Property name="CameraParallelScale" id="125.CameraParallelScale" number_of_elements="1">
         <Element index="0" value="1"/>
       </Property>
-      <Property name="CameraPosition" id="252.CameraPosition" number_of_elements="3">
+      <Property name="CameraPosition" id="125.CameraPosition" number_of_elements="3">
         <Element index="0" value="0"/>
         <Element index="1" value="0"/>
-        <Element index="2" value="3.29037"/>
+        <Element index="2" value="3.34229"/>
       </Property>
-      <Property name="CameraViewAngle" id="252.CameraViewAngle" number_of_elements="1">
+      <Property name="CameraViewAngle" id="125.CameraViewAngle" number_of_elements="1">
         <Element index="0" value="30"/>
       </Property>
-      <Property name="CameraViewUp" id="252.CameraViewUp" number_of_elements="3">
+      <Property name="CameraViewUp" id="125.CameraViewUp" number_of_elements="3">
         <Element index="0" value="0"/>
         <Element index="1" value="1"/>
         <Element index="2" value="0"/>
       </Property>
-      <Property name="EyeAngle" id="252.EyeAngle" number_of_elements="1">
+      <Property name="EyeAngle" id="125.EyeAngle" number_of_elements="1">
         <Element index="0" value="2"/>
-        <Domain name="range" id="252.EyeAngle.range">
+        <Domain name="range" id="125.EyeAngle.range">
           <Min index="0" value="0"/>
         </Domain>
       </Property>
     </Proxy>
-    <Proxy group="sources" type="CylinderSource" id="78">
-      <Property name="Capping" id="78.Capping" number_of_elements="1">
+    <Proxy group="sources" type="CylinderSource" id="72">
+      <Property name="Capping" id="72.Capping" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="bool" id="78.Capping.bool"/>
+        <Domain name="bool" id="72.Capping.bool"/>
       </Property>
-      <Property name="Center" id="78.Center" number_of_elements="3">
-        <Element index="0" value="1"/>
+      <Property name="Center" id="72.Center" number_of_elements="3">
+        <Element index="0" value="0.5"/>
         <Element index="1" value="0"/>
         <Element index="2" value="0"/>
-        <Domain name="range" id="78.Center.range"/>
+        <Domain name="range" id="72.Center.range"/>
       </Property>
-      <Property name="Height" id="78.Height" number_of_elements="1">
+      <Property name="Height" id="72.Height" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="range" id="78.Height.range">
+        <Domain name="range" id="72.Height.range">
           <Min index="0" value="0"/>
         </Domain>
       </Property>
-      <Property name="Radius" id="78.Radius" number_of_elements="1">
+      <Property name="Radius" id="72.Radius" number_of_elements="1">
         <Element index="0" value="0.5"/>
-        <Domain name="range" id="78.Radius.range">
+        <Domain name="range" id="72.Radius.range">
           <Min index="0" value="0"/>
         </Domain>
       </Property>
-      <Property name="Resolution" id="78.Resolution" number_of_elements="1">
-        <Element index="0" value="200"/>
-        <Domain name="range" id="78.Resolution.range">
+      <Property name="Resolution" id="72.Resolution" number_of_elements="1">
+        <Element index="0" value="46"/>
+        <Domain name="range" id="72.Resolution.range">
           <Min index="0" value="2"/>
           <Max index="0" value="512"/>
         </Domain>
       </Property>
     </Proxy>
-    <Proxy group="sources" type="SphereSource" id="25">
-      <Property name="Center" id="25.Center" number_of_elements="3">
+    <Proxy group="sources" type="SphereSource" id="22">
+      <Property name="Center" id="22.Center" number_of_elements="3">
         <Element index="0" value="0"/>
         <Element index="1" value="0"/>
         <Element index="2" value="0"/>
-        <Domain name="range" id="25.Center.range"/>
+        <Domain name="range" id="22.Center.range"/>
       </Property>
-      <Property name="EndPhi" id="25.EndPhi" number_of_elements="1">
+      <Property name="EndPhi" id="22.EndPhi" number_of_elements="1">
         <Element index="0" value="180"/>
-        <Domain name="range" id="25.EndPhi.range">
+        <Domain name="range" id="22.EndPhi.range">
           <Min index="0" value="0"/>
           <Max index="0" value="180"/>
         </Domain>
       </Property>
-      <Property name="EndTheta" id="25.EndTheta" number_of_elements="1">
+      <Property name="EndTheta" id="22.EndTheta" number_of_elements="1">
         <Element index="0" value="360"/>
-        <Domain name="range" id="25.EndTheta.range">
+        <Domain name="range" id="22.EndTheta.range">
           <Min index="0" value="0"/>
           <Max index="0" value="360"/>
         </Domain>
       </Property>
-      <Property name="PhiResolution" id="25.PhiResolution" number_of_elements="1">
-        <Element index="0" value="8"/>
-        <Domain name="range" id="25.PhiResolution.range">
+      <Property name="PhiResolution" id="22.PhiResolution" number_of_elements="1">
+        <Element index="0" value="28"/>
+        <Domain name="range" id="22.PhiResolution.range">
           <Min index="0" value="3"/>
           <Max index="0" value="1024"/>
         </Domain>
       </Property>
-      <Property name="Radius" id="25.Radius" number_of_elements="1">
+      <Property name="Radius" id="22.Radius" number_of_elements="1">
         <Element index="0" value="0.5"/>
-        <Domain name="range" id="25.Radius.range">
+        <Domain name="range" id="22.Radius.range">
           <Min index="0" value="0"/>
         </Domain>
       </Property>
-      <Property name="StartPhi" id="25.StartPhi" number_of_elements="1">
+      <Property name="StartPhi" id="22.StartPhi" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="range" id="25.StartPhi.range">
+        <Domain name="range" id="22.StartPhi.range">
           <Min index="0" value="0"/>
           <Max index="0" value="180"/>
         </Domain>
       </Property>
-      <Property name="StartTheta" id="25.StartTheta" number_of_elements="1">
+      <Property name="StartTheta" id="22.StartTheta" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="range" id="25.StartTheta.range">
+        <Domain name="range" id="22.StartTheta.range">
           <Min index="0" value="0"/>
           <Max index="0" value="360"/>
         </Domain>
       </Property>
-      <Property name="ThetaResolution" id="25.ThetaResolution" number_of_elements="1">
-        <Element index="0" value="8"/>
-        <Domain name="range" id="25.ThetaResolution.range">
+      <Property name="ThetaResolution" id="22.ThetaResolution" number_of_elements="1">
+        <Element index="0" value="28"/>
+        <Domain name="range" id="22.ThetaResolution.range">
           <Min index="0" value="3"/>
           <Max index="0" value="1024"/>
         </Domain>
       </Property>
     </Proxy>
     <ProxyCollection name="displays">
-      <Item id="28" name="28"/>
-      <Item id="81" name="81"/>
+      <Item id="25" name="25"/>
+      <Item id="75" name="75"/>
     </ProxyCollection>
     <ProxyCollection name="render_modules">
       <Item id="5" name="5"/>
     </ProxyCollection>
     <ProxyCollection name="selection_objects">
-      <Item id="252" name="active_selection"/>
+      <Item id="125" name="active_selection"/>
     </ProxyCollection>
     <ProxyCollection name="sources">
-      <Item id="78" name="CylinderSource1"/>
-      <Item id="25" name="SphereSource1"/>
+      <Item id="72" name="CylinderSource1"/>
+      <Item id="22" name="SphereSource1"/>
     </ProxyCollection>
     <CompoundProxyDefinitions/>
     <Links/>
   </ServerManagerState>
   <RenderViewManager>
     <MultiView>
-      <Splitter index="0" orientation="Horizontal" count="1" sizes="882"/>
+      <Splitter index="0" orientation="Horizontal" count="1" sizes="372"/>
     </MultiView>
     <Frame index="AAAAAQAAAAA=" render_module="5"/>
   </RenderViewManager>
