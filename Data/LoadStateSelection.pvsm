@@ -796,7 +796,7 @@
       <Item id="25" name="25"/>
       <Item id="75" name="75"/>
     </ProxyCollection>
-    <ProxyCollection name="render_modules">
+    <ProxyCollection name="view_modules">
       <Item id="5" name="5"/>
     </ProxyCollection>
     <ProxyCollection name="selection_objects">
@@ -809,10 +809,10 @@
     <CompoundProxyDefinitions/>
     <Links/>
   </ServerManagerState>
-  <RenderViewManager>
+  <ViewManager>
     <MultiView>
       <Splitter index="0" orientation="Horizontal" count="1" sizes="372"/>
     </MultiView>
-    <Frame index="AAAAAQAAAAA=" render_module="5"/>
-  </RenderViewManager>
+    <Frame index="0" view_module="5"/>
+  </ViewManager>
 </ParaView>

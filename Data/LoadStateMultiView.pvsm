@@ -2784,7 +2784,7 @@
       <Item id="454" name="2.TCoords"/>
       <Item id="163" name="3.Normals"/>
     </ProxyCollection>
-    <ProxyCollection name="render_modules">
+    <ProxyCollection name="view_modules">
       <Item id="63" name="5"/>
       <Item id="253" name="72"/>
       <Item id="358" name="89"/>

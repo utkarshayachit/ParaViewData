@@ -876,7 +876,7 @@
     <ProxyCollection name="lookup_tables">
       <Item id="139" name="139"/>
     </ProxyCollection>
-    <ProxyCollection name="render_modules">
+    <ProxyCollection name="view_modules">
       <Item id="5" name="5"/>
     </ProxyCollection>
     <ProxyCollection name="sources">

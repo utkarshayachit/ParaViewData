@@ -1093,7 +1093,7 @@
       <Item id="140" name="128"/>
       <Item id="59" name="48"/>
     </ProxyCollection>
-    <ProxyCollection name="render_modules">
+    <ProxyCollection name="view_modules">
       <Item id="13" name="LODRenderModule1"/>
     </ProxyCollection>
     <ProxyCollection name="sources">
@@ -1113,10 +1113,4 @@
       </PropertyLink>
     </Links>
   </ServerManagerState>
-  <RenderViewManager>
-    <MultiView>
-      <Splitter index="0" orientation="Horizontal" count="1" sizes="691"/>
-    </MultiView>
-    <Frame index="AAAAAQAAAAA=" render_module="13"/>
-  </RenderViewManager>
 </ParaView>

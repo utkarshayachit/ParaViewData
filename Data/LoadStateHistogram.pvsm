@@ -1,6 +1,6 @@
 <ParaView>
   <ServerManagerState>
-    <Proxy group="displays" type="HistogramDisplay" id="123">
+    <Proxy group="displays" type="BarChartDisplay" id="123">
       <Property name="Input" id="123.Input" number_of_elements="1">
         <Proxy value="72"/>
         <Domain name="groups" id="123.Input.groups">
@@ -368,7 +368,7 @@
         <Domain name="bool" id="75.UseStrips.bool"/>
       </Property>
     </Proxy>
-    <Proxy group="plotmodules" type="HistogramViewModule" id="122">
+    <Proxy group="plotmodules" type="BarChartViewModule" id="122">
       <Property name="Displays" id="122.Displays" number_of_elements="1">
         <Proxy value="123"/>
         <Domain name="groups" id="122.Displays.groups">
@@ -770,10 +770,8 @@
       <Item id="25" name="25"/>
       <Item id="75" name="75"/>
     </ProxyCollection>
-    <ProxyCollection name="plot_modules">
-      <Item id="122" name="HistogramViewModule1"/>
-    </ProxyCollection>
-    <ProxyCollection name="render_modules">
+    <ProxyCollection name="view_modules">
+      <Item id="122" name="BarChartViewModule1"/>
       <Item id="5" name="5"/>
     </ProxyCollection>
     <ProxyCollection name="sources">
@@ -783,10 +781,4 @@
     <CompoundProxyDefinitions/>
     <Links/>
   </ServerManagerState>
-  <RenderViewManager>
-    <MultiView>
-      <Splitter index="0" orientation="Horizontal" count="1" sizes="618"/>
-    </MultiView>
-    <Frame index="AAAAAQAAAAA=" render_module="5"/>
-  </RenderViewManager>
 </ParaView>
