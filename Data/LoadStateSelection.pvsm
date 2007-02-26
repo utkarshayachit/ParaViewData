@@ -655,19 +655,12 @@
           <Group value="rendermodules"/>
         </Domain>
       </Property>
-      <Property name="Selection" id="125.Selection" number_of_elements="4">
+      <Property name="ScreenRectangle" id="125.Selection" number_of_elements="4">
         <Element index="0" value="141"/>
         <Element index="1" value="181"/>
         <Element index="2" value="212"/>
         <Element index="3" value="37"/>
         <Domain name="range" id="125.Selection.range"/>
-      </Property>
-      <Property name="Type" id="125.Type" number_of_elements="1">
-        <Element index="0" value="0"/>
-        <Domain name="enum" id="125.Type.enum">
-          <Entry value="0" text="SOURCE"/>
-          <Entry value="1" text="GEOMETRY"/>
-        </Domain>
       </Property>
       <Property name="CameraClippingRange" id="125.CameraClippingRange" number_of_elements="2">
         <Element index="0" value="2.31387"/>
