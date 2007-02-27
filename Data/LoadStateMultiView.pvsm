@@ -946,7 +946,20 @@
           <Group value="implicit_functions"/>
         </Domain>
       </Property>
-      <Property name="Color" id="359.Color" number_of_elements="3">
+      <Property name="AmbientColor" id="359.Color" number_of_elements="3">
+        <Element index="0" value="1"/>
+        <Element index="1" value="0"/>
+        <Element index="2" value="1"/>
+        <Domain name="range" id="359.Color.range">
+          <Min index="0" value="0"/>
+          <Min index="1" value="0"/>
+          <Min index="2" value="0"/>
+          <Max index="0" value="1"/>
+          <Max index="1" value="1"/>
+          <Max index="2" value="1"/>
+        </Domain>
+      </Property>
+      <Property name="DiffuseColor" id="359.Color" number_of_elements="3">
         <Element index="0" value="1"/>
         <Element index="1" value="0"/>
         <Element index="2" value="1"/>
