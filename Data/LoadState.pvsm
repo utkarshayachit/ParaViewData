@@ -735,7 +735,7 @@
         </Domain>
       </Property>
       <Property name="LightSwitch" id="5.LightSwitch" number_of_elements="1">
-        <Element index="0" value="0"/>
+        <Element index="0" value="1"/>
         <Domain name="bool" id="5.LightSwitch.bool"/>
       </Property>
       <Property name="MaintainLuminance" id="5.MaintainLuminance" number_of_elements="1">
