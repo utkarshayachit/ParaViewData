@@ -2577,21 +2577,6 @@
         <Element index="0" value="0"/>
         <Domain name="bool" id="47.InsideOut.bool"/>
       </Property>
-      <Property name="SelectInputScalars" id="47.SelectInputScalars" number_of_elements="5">
-        <Element index="0" value=""/>
-        <Element index="1" value=""/>
-        <Element index="2" value=""/>
-        <Element index="3" value=""/>
-        <Element index="4" value=""/>
-        <Domain name="array_list" id="47.SelectInputScalars.array_list">
-          <String text="Normals"/>
-        </Domain>
-      </Property>
-      <Property name="Value" id="47.Value" number_of_elements="1">
-        <Element index="0" value="0"/>
-        <Domain name="range" id="47.Value.range"/>
-        <Domain name="scalar_range" id="47.Value.scalar_range"/>
-      </Property>
     </Proxy>
     <Proxy group="sources" type="ConeSource" id="48" servers="1">
       <Property name="Capping" id="48.Capping" number_of_elements="1">
