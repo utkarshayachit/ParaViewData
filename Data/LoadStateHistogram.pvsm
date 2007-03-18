@@ -404,13 +404,6 @@
         <Element index="0" value="0"/>
         <Domain name="bool" id="48.Shading.bool"/>
       </Property>
-      <Property name="Specular" id="48.Specular" number_of_elements="1">
-        <Element index="0" value="0"/>
-        <Domain name="range" id="48.Specular.range">
-          <Min index="0" value="0"/>
-          <Max index="0" value="1"/>
-        </Domain>
-      </Property>
       <Property name="SpecularColor" id="48.SpecularColor" number_of_elements="3">
         <Element index="0" value="1"/>
         <Element index="1" value="1"/>
@@ -773,9 +766,6 @@
       <Property name="CameraParallelScale" id="13.CameraParallelScale" number_of_elements="1">
         <Element index="0" value="1"/>
       </Property>
-      <Property name="CameraParallelScaleInfo" id="13.CameraParallelScaleInfo" number_of_elements="1">
-        <Element index="0" value="1"/>
-      </Property>
       <Property name="CameraPosition" id="13.CameraPosition" number_of_elements="3">
         <Element index="0" value="0"/>
         <Element index="1" value="0"/>
@@ -787,9 +777,6 @@
         <Element index="2" value="66.9213"/>
       </Property>
       <Property name="CameraViewAngle" id="13.CameraViewAngle" number_of_elements="1">
-        <Element index="0" value="30"/>
-      </Property>
-      <Property name="CameraViewAngleInfo" id="13.CameraViewAngleInfo" number_of_elements="1">
         <Element index="0" value="30"/>
       </Property>
       <Property name="CameraViewUp" id="13.CameraViewUp" number_of_elements="3">

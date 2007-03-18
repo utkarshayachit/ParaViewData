@@ -153,13 +153,6 @@
         <Element index="0" value="0"/>
         <Domain name="bool" id="25.Shading.bool"/>
       </Property>
-      <Property name="Specular" id="25.Specular" number_of_elements="1">
-        <Element index="0" value="0"/>
-        <Domain name="range" id="25.Specular.range">
-          <Min index="0" value="0"/>
-          <Max index="0" value="1"/>
-        </Domain>
-      </Property>
       <Property name="UseLookupTableScalarRange" id="25.UseLookupTableScalarRange" number_of_elements="1">
         <Element index="0" value="1"/>
         <Domain name="bool" id="25.UseLookupTableScalarRange.bool"/>
@@ -351,13 +344,6 @@
       <Property name="Shading" id="78.Shading" number_of_elements="1">
         <Element index="0" value="0"/>
         <Domain name="bool" id="78.Shading.bool"/>
-      </Property>
-      <Property name="Specular" id="78.Specular" number_of_elements="1">
-        <Element index="0" value="0"/>
-        <Domain name="range" id="78.Specular.range">
-          <Min index="0" value="0"/>
-          <Max index="0" value="1"/>
-        </Domain>
       </Property>
       <Property name="UseLookupTableScalarRange" id="78.UseLookupTableScalarRange" number_of_elements="1">
         <Element index="0" value="1"/>
@@ -569,9 +555,6 @@
       <Property name="CameraParallelScale" id="5.CameraParallelScale" number_of_elements="1">
         <Element index="0" value="1"/>
       </Property>
-      <Property name="CameraParallelScaleInfo" id="5.CameraParallelScaleInfo" number_of_elements="1">
-        <Element index="0" value="1"/>
-      </Property>
       <Property name="CameraPosition" id="5.CameraPosition" number_of_elements="3">
         <Element index="0" value="0"/>
         <Element index="1" value="0"/>
@@ -583,9 +566,6 @@
         <Element index="2" value="3.29037"/>
       </Property>
       <Property name="CameraViewAngle" id="5.CameraViewAngle" number_of_elements="1">
-        <Element index="0" value="30"/>
-      </Property>
-      <Property name="CameraViewAngleInfo" id="5.CameraViewAngleInfo" number_of_elements="1">
         <Element index="0" value="30"/>
       </Property>
       <Property name="CameraViewUp" id="5.CameraViewUp" number_of_elements="3">
