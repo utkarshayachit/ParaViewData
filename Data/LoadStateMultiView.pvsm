@@ -1,5 +1,5 @@
 <ParaView>
-  <ServerManagerState>
+  <ServerManagerState version="2.9.10">
     <Proxy group="implicit_functions" type="Plane" id="87" servers="1">
       <Property name="Normal" id="87.Normal" number_of_elements="3">
         <Element index="0" value="1"/>

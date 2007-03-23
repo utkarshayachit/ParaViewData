@@ -1,5 +1,5 @@
 <ParaView>
-  <ServerManagerState>
+  <ServerManagerState version="2.9.10">
     <Proxy group="cameramanipulators" type="TrackballRotate" id="31" servers="16">
       <Property name="Button" id="31.Button" number_of_elements="1">
         <Element index="0" value="1"/>
