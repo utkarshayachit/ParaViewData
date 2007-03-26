@@ -282,17 +282,6 @@
           <Entry value="1" text="MapScalars"/>
         </Domain>
       </Property>
-      <Property name="ColorSpace" id="140.ColorSpace" number_of_elements="1">
-        <Element index="0" value="0"/>
-        <Domain name="enum" id="140.ColorSpace.enum">
-          <Entry value="0" text="RGB"/>
-          <Entry value="1" text="HSV"/>
-        </Domain>
-      </Property>
-      <Property name="HSVWrap" id="140.HSVWrap" number_of_elements="1">
-        <Element index="0" value="0"/>
-        <Domain name="bool" id="140.HSVWrap.bool"/>
-      </Property>
       <Property name="ImmediateModeRendering" id="140.ImmediateModeRendering" number_of_elements="1">
         <Element index="0" value="0"/>
         <Domain name="bool" id="140.ImmediateModeRendering.bool"/>
@@ -362,14 +351,12 @@
           <Min index="0" value="0"/>
         </Domain>
       </Property>
-      <Property name="Points" id="140.Points"/>
       <Property name="Position" id="140.Position" number_of_elements="3">
         <Element index="0" value="0"/>
         <Element index="1" value="0"/>
         <Element index="2" value="0"/>
         <Domain name="range" id="140.Position.range"/>
       </Property>
-      <Property name="RGBPoints" id="140.RGBPoints"/>
       <Property name="ScalarMode" id="140.ScalarMode" number_of_elements="1">
         <Element index="0" value="0"/>
         <Domain name="enum" id="140.ScalarMode.enum">
@@ -392,10 +379,6 @@
         <Element index="1" value="1"/>
         <Element index="2" value="1"/>
         <Domain name="range" id="140.Scale.range"/>
-      </Property>
-      <Property name="SelectScalarArray" id="140.SelectScalarArray" number_of_elements="1">
-        <Element index="0" value=""/>
-        <Domain name="array_list" id="140.SelectScalarArray.array_list"/>
       </Property>
       <Property name="Shading" id="140.Shading" number_of_elements="1">
         <Element index="0" value="0"/>
@@ -488,17 +471,6 @@
           <Entry value="1" text="MapScalars"/>
         </Domain>
       </Property>
-      <Property name="ColorSpace" id="59.ColorSpace" number_of_elements="1">
-        <Element index="0" value="0"/>
-        <Domain name="enum" id="59.ColorSpace.enum">
-          <Entry value="0" text="RGB"/>
-          <Entry value="1" text="HSV"/>
-        </Domain>
-      </Property>
-      <Property name="HSVWrap" id="59.HSVWrap" number_of_elements="1">
-        <Element index="0" value="0"/>
-        <Domain name="bool" id="59.HSVWrap.bool"/>
-      </Property>
       <Property name="ImmediateModeRendering" id="59.ImmediateModeRendering" number_of_elements="1">
         <Element index="0" value="0"/>
         <Domain name="bool" id="59.ImmediateModeRendering.bool"/>
@@ -568,14 +540,12 @@
           <Min index="0" value="0"/>
         </Domain>
       </Property>
-      <Property name="Points" id="59.Points"/>
       <Property name="Position" id="59.Position" number_of_elements="3">
         <Element index="0" value="0"/>
         <Element index="1" value="0"/>
         <Element index="2" value="0"/>
         <Domain name="range" id="59.Position.range"/>
       </Property>
-      <Property name="RGBPoints" id="59.RGBPoints"/>
       <Property name="ScalarMode" id="59.ScalarMode" number_of_elements="1">
         <Element index="0" value="0"/>
         <Domain name="enum" id="59.ScalarMode.enum">
@@ -598,10 +568,6 @@
         <Element index="1" value="1"/>
         <Element index="2" value="1"/>
         <Domain name="range" id="59.Scale.range"/>
-      </Property>
-      <Property name="SelectScalarArray" id="59.SelectScalarArray" number_of_elements="1">
-        <Element index="0" value=""/>
-        <Domain name="array_list" id="59.SelectScalarArray.array_list"/>
       </Property>
       <Property name="Shading" id="59.Shading" number_of_elements="1">
         <Element index="0" value="0"/>
