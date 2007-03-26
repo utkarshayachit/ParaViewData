@@ -373,7 +373,7 @@
         <Domain name="range" id="71.Origin.range"/>
       </Property>
     </Proxy>
-    <Proxy group="lookup_tables" type="PVLookupTable" id="139">
+    <Proxy group="lookup_tables" type="PVLookupTable" id="139" servers="20">
       <Property name="ColorSpace" id="139.ColorSpace" number_of_elements="1">
         <Element index="0" value="1"/>
         <Domain name="enum" id="139.ColorSpace.enum">
