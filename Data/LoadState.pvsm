@@ -808,21 +808,6 @@
         <Element index="0" value="0"/>
         <Domain name="bool" id="68.InsideOut.bool"/>
       </Property>
-      <Property name="SelectInputScalars" id="68.SelectInputScalars" number_of_elements="5">
-        <Element index="0" value=""/>
-        <Element index="1" value=""/>
-        <Element index="2" value=""/>
-        <Element index="3" value=""/>
-        <Element index="4" value=""/>
-        <Domain name="array_list" id="68.SelectInputScalars.array_list">
-          <String text="Normals"/>
-        </Domain>
-      </Property>
-      <Property name="Value" id="68.Value" number_of_elements="1">
-        <Element index="0" value="0"/>
-        <Domain name="range" id="68.Value.range"/>
-        <Domain name="scalar_range" id="68.Value.scalar_range"/>
-      </Property>
     </Proxy>
     <ProxyCollection name="displays">
       <Item id="25" name="25"/>
