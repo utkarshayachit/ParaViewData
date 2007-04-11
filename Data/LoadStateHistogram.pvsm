@@ -1,249 +1,253 @@
 <ParaView>
   <ServerManagerState version="2.9.10">
-    <Proxy group="cameramanipulators" type="TrackballRotate" id="31" servers="16">
-      <Property name="Button" id="31.Button" number_of_elements="1">
+    <Proxy group="cameramanipulators" type="TrackballRotate" id="60" servers="16">
+      <Property name="Button" id="60.Button" number_of_elements="1">
         <Element index="0" value="1"/>
       </Property>
-      <Property name="Control" id="31.Control" number_of_elements="1">
+      <Property name="Control" id="60.Control" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="IsControlPressed" id="31.Control.IsControlPressed"/>
+        <Domain name="IsControlPressed" id="60.Control.IsControlPressed"/>
       </Property>
-      <Property name="ManipulatorName" id="31.ManipulatorName" number_of_elements="1">
+      <Property name="ManipulatorName" id="60.ManipulatorName" number_of_elements="1">
         <Element index="0" value=""/>
       </Property>
-      <Property name="Shift" id="31.Shift" number_of_elements="1">
+      <Property name="Shift" id="60.Shift" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="IsShiftPressed" id="31.Shift.IsShiftPressed"/>
+        <Domain name="IsShiftPressed" id="60.Shift.IsShiftPressed"/>
       </Property>
     </Proxy>
-    <Proxy group="cameramanipulators" type="TrackballPan1" id="32" servers="16">
-      <Property name="Button" id="32.Button" number_of_elements="1">
+    <Proxy group="cameramanipulators" type="TrackballPan1" id="62" servers="16">
+      <Property name="Button" id="62.Button" number_of_elements="1">
         <Element index="0" value="2"/>
       </Property>
-      <Property name="Control" id="32.Control" number_of_elements="1">
+      <Property name="Control" id="62.Control" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="IsControlPressed" id="32.Control.IsControlPressed"/>
+        <Domain name="IsControlPressed" id="62.Control.IsControlPressed"/>
       </Property>
-      <Property name="ManipulatorName" id="32.ManipulatorName" number_of_elements="1">
+      <Property name="ManipulatorName" id="62.ManipulatorName" number_of_elements="1">
         <Element index="0" value=""/>
       </Property>
-      <Property name="Shift" id="32.Shift" number_of_elements="1">
+      <Property name="Shift" id="62.Shift" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="IsShiftPressed" id="32.Shift.IsShiftPressed"/>
+        <Domain name="IsShiftPressed" id="62.Shift.IsShiftPressed"/>
       </Property>
     </Proxy>
-    <Proxy group="cameramanipulators" type="TrackballPan1" id="34" servers="16">
-      <Property name="Button" id="34.Button" number_of_elements="1">
+    <Proxy group="cameramanipulators" type="TrackballPan1" id="64" servers="16">
+      <Property name="Button" id="64.Button" number_of_elements="1">
         <Element index="0" value="1"/>
       </Property>
-      <Property name="Control" id="34.Control" number_of_elements="1">
+      <Property name="Control" id="64.Control" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="IsControlPressed" id="34.Control.IsControlPressed"/>
+        <Domain name="IsControlPressed" id="64.Control.IsControlPressed"/>
       </Property>
-      <Property name="ManipulatorName" id="34.ManipulatorName" number_of_elements="1">
+      <Property name="ManipulatorName" id="64.ManipulatorName" number_of_elements="1">
         <Element index="0" value=""/>
       </Property>
-      <Property name="Shift" id="34.Shift" number_of_elements="1">
+      <Property name="Shift" id="64.Shift" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="IsShiftPressed" id="34.Shift.IsShiftPressed"/>
+        <Domain name="IsShiftPressed" id="64.Shift.IsShiftPressed"/>
       </Property>
     </Proxy>
-    <Proxy group="cameramanipulators" type="TrackballZoom" id="36" servers="16">
-      <Property name="Button" id="36.Button" number_of_elements="1">
+    <Proxy group="cameramanipulators" type="TrackballZoom" id="66" servers="16">
+      <Property name="Button" id="66.Button" number_of_elements="1">
         <Element index="0" value="3"/>
       </Property>
-      <Property name="Control" id="36.Control" number_of_elements="1">
+      <Property name="Control" id="66.Control" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="IsControlPressed" id="36.Control.IsControlPressed"/>
+        <Domain name="IsControlPressed" id="66.Control.IsControlPressed"/>
       </Property>
-      <Property name="ManipulatorName" id="36.ManipulatorName" number_of_elements="1">
+      <Property name="ManipulatorName" id="66.ManipulatorName" number_of_elements="1">
         <Element index="0" value=""/>
       </Property>
-      <Property name="Shift" id="36.Shift" number_of_elements="1">
+      <Property name="Shift" id="66.Shift" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="IsShiftPressed" id="36.Shift.IsShiftPressed"/>
+        <Domain name="IsShiftPressed" id="66.Shift.IsShiftPressed"/>
       </Property>
     </Proxy>
-    <Proxy group="cameramanipulators" type="TrackballZoom" id="38" servers="16">
-      <Property name="Button" id="38.Button" number_of_elements="1">
+    <Proxy group="cameramanipulators" type="TrackballZoom" id="68" servers="16">
+      <Property name="Button" id="68.Button" number_of_elements="1">
         <Element index="0" value="1"/>
       </Property>
-      <Property name="Control" id="38.Control" number_of_elements="1">
+      <Property name="Control" id="68.Control" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="IsControlPressed" id="38.Control.IsControlPressed"/>
+        <Domain name="IsControlPressed" id="68.Control.IsControlPressed"/>
       </Property>
-      <Property name="ManipulatorName" id="38.ManipulatorName" number_of_elements="1">
+      <Property name="ManipulatorName" id="68.ManipulatorName" number_of_elements="1">
         <Element index="0" value=""/>
       </Property>
-      <Property name="Shift" id="38.Shift" number_of_elements="1">
+      <Property name="Shift" id="68.Shift" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="IsShiftPressed" id="38.Shift.IsShiftPressed"/>
+        <Domain name="IsShiftPressed" id="68.Shift.IsShiftPressed"/>
       </Property>
     </Proxy>
-    <Proxy group="interactorstyles" type="InteractorStyle" id="30" servers="16">
-      <Property name="CameraManipulators" id="30.CameraManipulators" number_of_elements="5">
-        <Proxy value="31"/>
-        <Proxy value="32"/>
-        <Proxy value="34"/>
-        <Proxy value="36"/>
-        <Proxy value="38"/>
-        <Domain name="groups" id="30.CameraManipulators.groups">
+    <Proxy group="interactorstyles" type="InteractorStyle" id="56" servers="16">
+      <Property name="CameraManipulators" id="56.CameraManipulators" number_of_elements="5">
+        <Proxy value="60"/>
+        <Proxy value="62"/>
+        <Proxy value="64"/>
+        <Proxy value="66"/>
+        <Proxy value="68"/>
+        <Domain name="groups" id="56.CameraManipulators.groups">
           <Group value="cameramanipulators"/>
         </Domain>
       </Property>
-      <Property name="CenterOfRotation" id="30.CenterOfRotation" number_of_elements="3">
+      <Property name="CenterOfRotation" id="56.CenterOfRotation" number_of_elements="3">
         <Element index="0" value="0"/>
         <Element index="1" value="0"/>
         <Element index="2" value="0"/>
       </Property>
     </Proxy>
-    <Proxy group="animation" type="PVAnimationScene" id="42" servers="16">
-      <Property name="Caching" id="42.Caching" number_of_elements="1">
+    <Proxy group="animation" type="PVAnimationScene" id="6" servers="16">
+      <Property name="Caching" id="6.Caching" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="bool" id="42.Caching.bool"/>
+        <Domain name="bool" id="6.Caching.bool"/>
       </Property>
-      <Property name="ClockTimeRange" id="42.ClockTimeRange" number_of_elements="2">
+      <Property name="ClockTimeRange" id="6.ClockTimeRange" number_of_elements="2">
         <Element index="0" value="0"/>
         <Element index="1" value="1"/>
-        <Domain name="range" id="42.ClockTimeRange.range"/>
+        <Domain name="range" id="6.ClockTimeRange.range"/>
       </Property>
-      <Property name="ClockTimeRangeLocks" id="42.ClockTimeRangeLocks" number_of_elements="2">
+      <Property name="ClockTimeRangeLocks" id="6.ClockTimeRangeLocks" number_of_elements="2">
         <Element index="0" value="0"/>
         <Element index="1" value="0"/>
       </Property>
-      <Property name="Cues" id="42.Cues" number_of_elements="0">
-        <Domain name="groups" id="42.Cues.groups">
+      <Property name="Cues" id="6.Cues" number_of_elements="0">
+        <Domain name="groups" id="6.Cues.groups">
           <Group value="animation"/>
         </Domain>
       </Property>
-      <Property name="Duration" id="42.Duration" number_of_elements="1">
+      <Property name="Duration" id="6.Duration" number_of_elements="1">
         <Element index="0" value="10"/>
       </Property>
-      <Property name="FramesPerTimestep" id="42.FramesPerTimestep" number_of_elements="1">
+      <Property name="FramesPerTimestep" id="6.FramesPerTimestep" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="range" id="42.FramesPerTimestep.range">
+        <Domain name="range" id="6.FramesPerTimestep.range">
           <Min index="0" value="1"/>
         </Domain>
       </Property>
-      <Property name="Loop" id="42.Loop" number_of_elements="1">
+      <Property name="Loop" id="6.Loop" number_of_elements="1">
         <Element index="0" value="0"/>
       </Property>
-      <Property name="NumberOfFrames" id="42.NumberOfFrames" number_of_elements="1">
+      <Property name="NumberOfFrames" id="6.NumberOfFrames" number_of_elements="1">
         <Element index="0" value="10"/>
       </Property>
-      <Property name="PlayMode" id="42.PlayMode" number_of_elements="1">
+      <Property name="PlayMode" id="6.PlayMode" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="enum" id="42.PlayMode.enum">
+        <Domain name="enum" id="6.PlayMode.enum">
           <Entry value="0" text="Sequence"/>
           <Entry value="1" text="Real Time"/>
           <Entry value="2" text="Snap To TimeSteps"/>
         </Domain>
       </Property>
-      <Property name="TimeKeeper" id="42.TimeKeeper" number_of_elements="1">
+      <Property name="TimeKeeper" id="6.TimeKeeper" number_of_elements="1">
         <Proxy value="4"/>
       </Property>
-      <Property name="TimeSteps" id="42.TimeSteps"/>
-      <Property name="ViewModules" id="42.ViewModules" number_of_elements="2">
-        <Proxy value="13"/>
-        <Proxy value="135"/>
-        <Domain name="groups" id="42.ViewModules.groups">
+      <Property name="TimeSteps" id="6.TimeSteps"/>
+      <Property name="ViewModules" id="6.ViewModules" number_of_elements="4">
+        <Proxy value="7"/>
+        <Proxy value="51"/>
+        <Proxy value="59"/>
+        <Proxy value="59"/>
+        <Domain name="groups" id="6.ViewModules.groups">
           <Group value="rendermodules"/>
         </Domain>
       </Property>
-      <SubProxy name="TimeCue" servers="16"/>
-      <SubProxy name="TimeCueManipulator" servers="16"/>
     </Proxy>
-    <Proxy group="displays" type="BarChartDisplay" id="136" servers="1">
-      <Property name="Input" id="136.Input" number_of_elements="1">
-        <Proxy value="132"/>
-        <Domain name="groups" id="136.Input.groups">
+    <Proxy group="displays" type="BarChartDisplay" id="147" servers="1">
+      <Property name="Input" id="147.Input" number_of_elements="1">
+        <Proxy value="58"/>
+        <Domain name="groups" id="147.Input.groups">
           <Group value="sources"/>
           <Group value="filters"/>
           <Group value="glyph_sources"/>
         </Domain>
-        <Domain name="input_array_any" id="136.Input.input_array_any">
-          <InputArray attribute_type="any" number_of_components="0"/>
-        </Domain>
-        <Domain name="input_array_cell" id="136.Input.input_array_cell">
+        <Domain name="input_array_cell" id="147.Input.input_array_cell">
           <InputArray attribute_type="cell" number_of_components="1"/>
         </Domain>
-        <Domain name="input_array_point" id="136.Input.input_array_point">
+        <Domain name="input_array_point" id="147.Input.input_array_point">
           <InputArray attribute_type="point" number_of_components="1"/>
         </Domain>
+        <Domain name="input_type" id="147.Input.input_type">
+          <DataType value="vtkRectilinearGrid"/>
+        </Domain>
       </Property>
-      <Property name="LookupTable" id="136.LookupTable" number_of_elements="1">
-        <Proxy value="130"/>
-        <Domain name="groups" id="136.LookupTable.groups">
+      <Property name="LookupTable" id="147.LookupTable" number_of_elements="1">
+        <Proxy value="136"/>
+        <Domain name="groups" id="147.LookupTable.groups">
           <Group value="lookup_tables"/>
         </Domain>
       </Property>
-      <Property name="ReductionType" id="136.ReductionType" number_of_elements="1">
+      <Property name="ReductionType" id="147.ReductionType" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="enum" id="136.ReductionType.enum">
+        <Domain name="enum" id="147.ReductionType.enum">
           <Entry value="0" text="ADD"/>
           <Entry value="1" text="POLYDATA_APPEND"/>
           <Entry value="2" text="UNSTRUCTURED_APPEND"/>
           <Entry value="3" text="FIRST_NODE_ONLY"/>
+          <Entry value="4" text="RECTILINEAR_GRID_APPEND"/>
         </Domain>
       </Property>
-      <Property name="Visibility" id="136.Visibility" number_of_elements="1">
+      <Property name="Visibility" id="147.Visibility" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="bool" id="136.Visibility.bool"/>
+        <Domain name="bool" id="147.Visibility.bool"/>
       </Property>
-      <Property name="XArrayName" id="136.XArrayName" number_of_elements="1">
+      <Property name="XArrayName" id="147.XArrayName" number_of_elements="1">
         <Element index="0" value="RTData"/>
-        <Domain name="array_list" id="136.XArrayName.array_list">
+        <Domain name="array_list" id="147.XArrayName.array_list">
           <String text="RTData"/>
         </Domain>
       </Property>
-      <Property name="XAxisPointComponent" id="136.XAxisPointComponent" number_of_elements="1">
+      <Property name="XAxisPointComponent" id="147.XAxisPointComponent" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="enum" id="136.XAxisPointComponent.enum">
+        <Domain name="enum" id="147.XAxisPointComponent.enum">
           <Entry value="0" text="X"/>
           <Entry value="1" text="Y"/>
           <Entry value="2" text="Z"/>
         </Domain>
       </Property>
-      <Property name="XAxisUsePoints" id="136.XAxisUsePoints" number_of_elements="1">
+      <Property name="XAxisUsePoints" id="147.XAxisUsePoints" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="bool" id="136.XAxisUsePoints.bool"/>
+        <Domain name="bool" id="147.XAxisUsePoints.bool"/>
       </Property>
-      <Property name="YArrayName" id="136.YArrayName" number_of_elements="1">
-        <Element index="0" value="point_values"/>
-        <Domain name="array_list" id="136.YArrayName.array_list">
-          <String text="point_values"/>
+      <Property name="YArrayName" id="147.YArrayName" number_of_elements="1">
+        <Element index="0" value="bin_values"/>
+        <Domain name="array_list" id="147.YArrayName.array_list">
+          <String text="bin_values"/>
         </Domain>
       </Property>
-      <Property name="PassThrough" id="136.PassThrough" number_of_elements="1">
+      <Property name="OutputDataType" id="147.OutputDataType" number_of_elements="1">
+        <Element index="0" value="0"/>
+      </Property>
+      <Property name="PassThrough" id="147.PassThrough" number_of_elements="1">
         <Element index="0" value="-1"/>
-        <Domain name="range" id="136.PassThrough.range">
+        <Domain name="range" id="147.PassThrough.range">
           <Min index="0" value="-1"/>
         </Domain>
       </Property>
-      <Property name="PostGatherHelper" id="136.PostGatherHelper" number_of_elements="0"/>
-      <Property name="PreGatherHelper" id="136.PreGatherHelper" number_of_elements="0"/>
+      <Property name="PostGatherHelper" id="147.PostGatherHelper" number_of_elements="0"/>
+      <Property name="PreGatherHelper" id="147.PreGatherHelper" number_of_elements="0"/>
       <SubProxy name="Collect" servers="17"/>
       <SubProxy name="Reduce" servers="1"/>
       <SubProxy name="UpdateSuppressor" servers="17"/>
     </Proxy>
-    <Proxy group="displays" type="LODDisplay" id="48" servers="1">
-      <Property name="Input" id="48.Input" number_of_elements="1">
-        <Proxy value="45"/>
-        <Domain name="groups" id="48.Input.groups">
+    <Proxy group="displays" type="LODDisplay" id="55" servers="1">
+      <Property name="Input" id="55.Input" number_of_elements="1">
+        <Proxy value="54"/>
+        <Domain name="groups" id="55.Input.groups">
           <Group value="sources"/>
           <Group value="filters"/>
           <Group value="glyph_sources"/>
         </Domain>
       </Property>
-      <Property name="LODResolution" id="48.LODResolution" number_of_elements="1">
+      <Property name="LODResolution" id="55.LODResolution" number_of_elements="1">
         <Element index="0" value="10"/>
-        <Domain name="range" id="48.LODResolution.range">
+        <Domain name="range" id="55.LODResolution.range">
           <Min index="0" value="0"/>
         </Domain>
       </Property>
-      <Property name="Representation" id="48.Representation" number_of_elements="1">
+      <Property name="Representation" id="55.Representation" number_of_elements="1">
         <Element index="0" value="2"/>
-        <Domain name="enum" id="48.Representation.enum">
+        <Domain name="enum" id="55.Representation.enum">
           <Entry value="0" text="Points"/>
           <Entry value="1" text="Wireframe"/>
           <Entry value="2" text="Surface"/>
@@ -251,20 +255,15 @@
           <Entry value="4" text="Volume"/>
         </Domain>
       </Property>
-      <Property name="Visibility" id="48.Visibility" number_of_elements="1">
+      <Property name="Visibility" id="55.Visibility" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="bool" id="48.Visibility.bool"/>
+        <Domain name="bool" id="55.Visibility.bool"/>
       </Property>
-      <Property name="ClippingPlanes" id="48.ClippingPlanes" number_of_elements="0">
-        <Domain name="groups" id="48.ClippingPlanes.groups">
-          <Group value="implicit_functions"/>
-        </Domain>
-      </Property>
-      <Property name="Color" id="48.Color" number_of_elements="3">
+      <Property name="AmbientColor" id="55.AmbientColor" number_of_elements="3">
         <Element index="0" value="1"/>
         <Element index="1" value="1"/>
         <Element index="2" value="1"/>
-        <Domain name="range" id="48.Color.range">
+        <Domain name="range" id="55.AmbientColor.range">
           <Min index="0" value="0"/>
           <Min index="1" value="0"/>
           <Min index="2" value="0"/>
@@ -273,96 +272,122 @@
           <Max index="2" value="1"/>
         </Domain>
       </Property>
-      <Property name="ColorArray" id="48.ColorArray" number_of_elements="1">
-        <Element index="0" value="RTData"/>
-        <Domain name="array_list" id="48.ColorArray.array_list"/>
+      <Property name="ClippingPlanes" id="55.ClippingPlanes" number_of_elements="0">
+        <Domain name="groups" id="55.ClippingPlanes.groups">
+          <Group value="implicit_functions"/>
+        </Domain>
       </Property>
-      <Property name="ColorMode" id="48.ColorMode" number_of_elements="1">
+      <Property name="Color" id="55.Color" number_of_elements="3">
         <Element index="0" value="1"/>
-        <Domain name="enum" id="48.ColorMode.enum">
+        <Element index="1" value="1"/>
+        <Element index="2" value="1"/>
+        <Domain name="range" id="55.Color.range">
+          <Min index="0" value="0"/>
+          <Min index="1" value="0"/>
+          <Min index="2" value="0"/>
+          <Max index="0" value="1"/>
+          <Max index="1" value="1"/>
+          <Max index="2" value="1"/>
+        </Domain>
+      </Property>
+      <Property name="ColorArray" id="55.ColorArray" number_of_elements="1">
+        <Element index="0" value="RTData"/>
+        <Domain name="array_list" id="55.ColorArray.array_list"/>
+      </Property>
+      <Property name="ColorMode" id="55.ColorMode" number_of_elements="1">
+        <Element index="0" value="1"/>
+        <Domain name="enum" id="55.ColorMode.enum">
           <Entry value="0" text="Default"/>
           <Entry value="1" text="MapScalars"/>
         </Domain>
       </Property>
-      <Property name="ImmediateModeRendering" id="48.ImmediateModeRendering" number_of_elements="1">
-        <Element index="0" value="0"/>
-        <Domain name="bool" id="48.ImmediateModeRendering.bool"/>
-      </Property>
-      <Property name="InterpolateScalarsBeforeMapping" id="48.InterpolateScalarsBeforeMapping" number_of_elements="1">
+      <Property name="DiffuseColor" id="55.DiffuseColor" number_of_elements="3">
         <Element index="0" value="1"/>
-        <Domain name="bool" id="48.InterpolateScalarsBeforeMapping.bool"/>
-      </Property>
-      <Property name="Interpolation" id="48.Interpolation" number_of_elements="1">
-        <Element index="0" value="1"/>
-        <Domain name="enum" id="48.Interpolation.enum">
-          <Entry value="0" text="Flat"/>
-          <Entry value="1" text="Gouraud"/>
-          <Entry value="2" text="Phong"/>
+        <Element index="1" value="1"/>
+        <Element index="2" value="1"/>
+        <Domain name="range" id="55.DiffuseColor.range">
+          <Min index="0" value="0"/>
+          <Min index="1" value="0"/>
+          <Min index="2" value="0"/>
+          <Max index="0" value="1"/>
+          <Max index="1" value="1"/>
+          <Max index="2" value="1"/>
         </Domain>
       </Property>
-      <Property name="LineWidth" id="48.LineWidth" number_of_elements="1">
+      <Property name="InterpolateScalarsBeforeMapping" id="55.InterpolateScalarsBeforeMapping" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="range" id="48.LineWidth.range">
+        <Domain name="bool" id="55.InterpolateScalarsBeforeMapping.bool"/>
+      </Property>
+      <Property name="Interpolation" id="55.Interpolation" number_of_elements="1">
+        <Element index="0" value="1"/>
+        <Domain name="enum" id="55.Interpolation.enum">
+          <Entry value="0" text="Flat"/>
+          <Entry value="1" text="Gouraud"/>
+        </Domain>
+      </Property>
+      <Property name="LineWidth" id="55.LineWidth" number_of_elements="1">
+        <Element index="0" value="1"/>
+        <Domain name="range" id="55.LineWidth.range">
           <Min index="0" value="0"/>
         </Domain>
       </Property>
-      <Property name="LookupTable" id="48.LookupTable" number_of_elements="1">
-        <Proxy value="130"/>
-        <Domain name="groups" id="48.LookupTable.groups">
+      <Property name="LookupTable" id="55.LookupTable" number_of_elements="1">
+        <Proxy value="136"/>
+        <Domain name="groups" id="55.LookupTable.groups">
           <Group value="lookup_tables"/>
         </Domain>
       </Property>
-      <Property name="MapScalars" id="48.MapScalars" number_of_elements="1">
+      <Property name="MapScalars" id="55.MapScalars" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="bool" id="48.MapScalars.bool"/>
+        <Domain name="bool" id="55.MapScalars.bool"/>
       </Property>
-      <Property name="Material" id="48.Material" number_of_elements="1">
+      <Property name="Material" id="55.Material" number_of_elements="1">
         <Element index="0" value=""/>
       </Property>
-      <Property name="NumberOfSubPieces" id="48.NumberOfSubPieces" number_of_elements="1">
+      <Property name="NumberOfSubPieces" id="55.NumberOfSubPieces" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="range" id="48.NumberOfSubPieces.range">
+        <Domain name="range" id="55.NumberOfSubPieces.range">
           <Min index="0" value="1"/>
         </Domain>
       </Property>
-      <Property name="Opacity" id="48.Opacity" number_of_elements="1">
+      <Property name="Opacity" id="55.Opacity" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="range" id="48.Opacity.range">
+        <Domain name="range" id="55.Opacity.range">
           <Min index="0" value="0"/>
           <Max index="0" value="1"/>
         </Domain>
       </Property>
-      <Property name="Orientation" id="48.Orientation" number_of_elements="3">
+      <Property name="Orientation" id="55.Orientation" number_of_elements="3">
         <Element index="0" value="0"/>
         <Element index="1" value="0"/>
         <Element index="2" value="0"/>
-        <Domain name="range" id="48.Orientation.range"/>
+        <Domain name="range" id="55.Orientation.range"/>
       </Property>
-      <Property name="Origin" id="48.Origin" number_of_elements="3">
+      <Property name="Origin" id="55.Origin" number_of_elements="3">
         <Element index="0" value="0"/>
         <Element index="1" value="0"/>
         <Element index="2" value="0"/>
-        <Domain name="range" id="48.Origin.range"/>
+        <Domain name="range" id="55.Origin.range"/>
       </Property>
-      <Property name="Pickable" id="48.Pickable" number_of_elements="1">
+      <Property name="Pickable" id="55.Pickable" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="bool" id="48.Pickable.bool"/>
+        <Domain name="bool" id="55.Pickable.bool"/>
       </Property>
-      <Property name="PointSize" id="48.PointSize" number_of_elements="1">
+      <Property name="PointSize" id="55.PointSize" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="range" id="48.PointSize.range">
+        <Domain name="range" id="55.PointSize.range">
           <Min index="0" value="0"/>
         </Domain>
       </Property>
-      <Property name="Position" id="48.Position" number_of_elements="3">
+      <Property name="Position" id="55.Position" number_of_elements="3">
         <Element index="0" value="0"/>
         <Element index="1" value="0"/>
         <Element index="2" value="0"/>
-        <Domain name="range" id="48.Position.range"/>
+        <Domain name="range" id="55.Position.range"/>
       </Property>
-      <Property name="ScalarMode" id="48.ScalarMode" number_of_elements="1">
+      <Property name="ScalarMode" id="55.ScalarMode" number_of_elements="1">
         <Element index="0" value="3"/>
-        <Domain name="enum" id="48.ScalarMode.enum">
+        <Domain name="enum" id="55.ScalarMode.enum">
           <Entry value="0" text="Default"/>
           <Entry value="1" text="UsePointData"/>
           <Entry value="2" text="UseCellData"/>
@@ -370,28 +395,33 @@
           <Entry value="4" text="UseCellFieldData"/>
         </Domain>
       </Property>
-      <Property name="ScalarOpacityUnitDistance" id="48.ScalarOpacityUnitDistance" number_of_elements="1">
+      <Property name="ScalarOpacityFunction" id="55.ScalarOpacityFunction" number_of_elements="0">
+        <Domain name="groups" id="55.ScalarOpacityFunction.groups">
+          <Group value="piecewise_functions"/>
+        </Domain>
+      </Property>
+      <Property name="ScalarOpacityUnitDistance" id="55.ScalarOpacityUnitDistance" number_of_elements="1">
         <Element index="0" value="1"/>
       </Property>
-      <Property name="ScalarVisibility" id="48.ScalarVisibility" number_of_elements="1">
+      <Property name="ScalarVisibility" id="55.ScalarVisibility" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="bool" id="48.ScalarVisibility.bool"/>
+        <Domain name="bool" id="55.ScalarVisibility.bool"/>
       </Property>
-      <Property name="Scale" id="48.Scale" number_of_elements="3">
+      <Property name="Scale" id="55.Scale" number_of_elements="3">
         <Element index="0" value="1"/>
         <Element index="1" value="1"/>
         <Element index="2" value="1"/>
-        <Domain name="range" id="48.Scale.range"/>
+        <Domain name="range" id="55.Scale.range"/>
       </Property>
-      <Property name="Shading" id="48.Shading" number_of_elements="1">
+      <Property name="Shading" id="55.Shading" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="bool" id="48.Shading.bool"/>
+        <Domain name="bool" id="55.Shading.bool"/>
       </Property>
-      <Property name="SpecularColor" id="48.SpecularColor" number_of_elements="3">
+      <Property name="SpecularColor" id="55.SpecularColor" number_of_elements="3">
         <Element index="0" value="1"/>
         <Element index="1" value="1"/>
         <Element index="2" value="1"/>
-        <Domain name="range" id="48.SpecularColor.range">
+        <Domain name="range" id="55.SpecularColor.range">
           <Min index="0" value="0"/>
           <Min index="1" value="0"/>
           <Min index="2" value="0"/>
@@ -400,29 +430,23 @@
           <Max index="2" value="1"/>
         </Domain>
       </Property>
-      <Property name="SpecularPower" id="48.SpecularPower" number_of_elements="1">
+      <Property name="SpecularPower" id="55.SpecularPower" number_of_elements="1">
         <Element index="0" value="100"/>
-        <Domain name="range" id="48.SpecularPower.range">
+        <Domain name="range" id="55.SpecularPower.range">
           <Min index="0" value="0"/>
           <Max index="0" value="100"/>
         </Domain>
       </Property>
-      <Property name="UseLookupTableScalarRange" id="48.UseLookupTableScalarRange" number_of_elements="1">
+      <Property name="UseLookupTableScalarRange" id="55.UseLookupTableScalarRange" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="bool" id="48.UseLookupTableScalarRange.bool"/>
+        <Domain name="bool" id="55.UseLookupTableScalarRange.bool"/>
       </Property>
-      <Property name="UseStrips" id="48.UseStrips" number_of_elements="1">
-        <Element index="0" value="0"/>
-        <Domain name="bool" id="48.UseStrips.bool"/>
-      </Property>
-      <SubProxy name="ColorTransferFunction" servers="20"/>
       <SubProxy name="GeometryFilter" servers="1"/>
       <SubProxy name="LODDecimator" servers="1"/>
       <SubProxy name="LODMapper" servers="20"/>
       <SubProxy name="LODUpdateSuppressor" servers="21"/>
       <SubProxy name="Mapper" servers="20"/>
       <SubProxy name="MaterialLoader" servers="1"/>
-      <SubProxy name="OpacityFunction" servers="20"/>
       <SubProxy name="Prop" servers="20"/>
       <SubProxy name="Property" servers="20"/>
       <SubProxy name="UpdateSuppressor" servers="21"/>
@@ -437,33 +461,33 @@
       <SubProxy name="VolumeUpdateSuppressor" servers="21"/>
       <SubProxy name="VolumeZSweepMapper" servers="20"/>
     </Proxy>
-    <Proxy group="lookup_tables" type="PVLookupTable" id="130" servers="20">
-      <Property name="ColorSpace" id="130.ColorSpace" number_of_elements="1">
+    <Proxy group="lookup_tables" type="PVLookupTable" id="136" servers="20">
+      <Property name="ColorSpace" id="136.ColorSpace" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="enum" id="130.ColorSpace.enum">
+        <Domain name="enum" id="136.ColorSpace.enum">
           <Entry value="0" text="RGB"/>
           <Entry value="1" text="HSV"/>
         </Domain>
       </Property>
-      <Property name="Discretize" id="130.Discretize" number_of_elements="1">
+      <Property name="Discretize" id="136.Discretize" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="bool" id="130.Discretize.bool"/>
+        <Domain name="bool" id="136.Discretize.bool"/>
       </Property>
-      <Property name="HSVWrap" id="130.HSVWrap" number_of_elements="1">
+      <Property name="HSVWrap" id="136.HSVWrap" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="bool" id="130.HSVWrap.bool"/>
+        <Domain name="bool" id="136.HSVWrap.bool"/>
       </Property>
-      <Property name="LockScalarRange" id="130.LockScalarRange" number_of_elements="1">
+      <Property name="LockScalarRange" id="136.LockScalarRange" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="bool" id="130.LockScalarRange.bool"/>
+        <Domain name="bool" id="136.LockScalarRange.bool"/>
       </Property>
-      <Property name="NumberOfTableValues" id="130.NumberOfTableValues" number_of_elements="1">
+      <Property name="NumberOfTableValues" id="136.NumberOfTableValues" number_of_elements="1">
         <Element index="0" value="256"/>
-        <Domain name="range" id="130.NumberOfTableValues.range">
+        <Domain name="range" id="136.NumberOfTableValues.range">
           <Min index="0" value="1"/>
         </Domain>
       </Property>
-      <Property name="RGBPoints" id="130.RGBPoints" number_of_elements="8">
+      <Property name="RGBPoints" id="136.RGBPoints" number_of_elements="8">
         <Element index="0" value="37.3531"/>
         <Element index="1" value="0"/>
         <Element index="2" value="0"/>
@@ -473,118 +497,304 @@
         <Element index="6" value="0"/>
         <Element index="7" value="0"/>
       </Property>
-      <Property name="ScalarRangeInitialized" id="130.ScalarRangeInitialized" number_of_elements="1">
+      <Property name="ScalarRangeInitialized" id="136.ScalarRangeInitialized" number_of_elements="1">
         <Element index="0" value="1"/>
+        <Domain name="bool" id="136.ScalarRangeInitialized.bool"/>
       </Property>
-      <Property name="VectorComponent" id="130.VectorComponent" number_of_elements="1">
+      <Property name="UseLogScale" id="136.UseLogScale" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="range" id="130.VectorComponent.range">
+        <Domain name="bool" id="136.UseLogScale.bool"/>
+      </Property>
+      <Property name="VectorComponent" id="136.VectorComponent" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="range" id="136.VectorComponent.range">
           <Min index="0" value="0"/>
+          <Max index="0" value="0"/>
         </Domain>
       </Property>
-      <Property name="VectorMode" id="130.VectorMode" number_of_elements="1">
+      <Property name="VectorMode" id="136.VectorMode" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="enum" id="130.VectorMode.enum">
+        <Domain name="enum" id="136.VectorMode.enum">
           <Entry value="0" text="Magnitude"/>
           <Entry value="1" text="Component"/>
         </Domain>
       </Property>
     </Proxy>
-    <Proxy group="filters" type="ExtractHistogram" id="132" servers="1">
-      <Property name="BinCount" id="132.BinCount" number_of_elements="1">
+    <Proxy group="rendermodules" type="MultiViewRenderModule" id="5" servers="1">
+      <Property name="RenderModules" id="5.RenderModules" number_of_elements="1">
+        <Proxy value="7"/>
+      </Property>
+      <SubProxy name="RenderModule.7" servers="20">
+        <SubProxy name="ActiveCamera" servers="16"/>
+        <SubProxy name="Helper" servers="21"/>
+        <SubProxy name="Interactor" servers="16"/>
+        <SubProxy name="Light" servers="20"/>
+        <SubProxy name="LightKit" servers="20"/>
+        <SubProxy name="RenderWindow" servers="20"/>
+        <SubProxy name="Renderer" servers="20"/>
+        <SubProxy name="Renderer2D" servers="20"/>
+      </SubProxy>
+    </Proxy>
+    <Proxy group="interactorstyles" type="InteractorStyle" id="24" servers="16">
+      <Property name="CameraManipulators" id="24.CameraManipulators" number_of_elements="9">
+        <Proxy value="25"/>
+        <Proxy value="27"/>
+        <Proxy value="29"/>
+        <Proxy value="31"/>
+        <Proxy value="33"/>
+        <Proxy value="35"/>
+        <Proxy value="37"/>
+        <Proxy value="39"/>
+        <Proxy value="41"/>
+        <Domain name="groups" id="24.CameraManipulators.groups">
+          <Group value="cameramanipulators"/>
+        </Domain>
+      </Property>
+      <Property name="CenterOfRotation" id="24.CenterOfRotation" number_of_elements="3">
+        <Element index="0" value="0"/>
+        <Element index="1" value="0"/>
+        <Element index="2" value="0"/>
+      </Property>
+    </Proxy>
+    <Proxy group="cameramanipulators" type="TrackballRotate" id="25" servers="16">
+      <Property name="Button" id="25.Button" number_of_elements="1">
+        <Element index="0" value="1"/>
+      </Property>
+      <Property name="Control" id="25.Control" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="IsControlPressed" id="25.Control.IsControlPressed"/>
+      </Property>
+      <Property name="ManipulatorName" id="25.ManipulatorName" number_of_elements="1">
+        <Element index="0" value=""/>
+      </Property>
+      <Property name="Shift" id="25.Shift" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="IsShiftPressed" id="25.Shift.IsShiftPressed"/>
+      </Property>
+    </Proxy>
+    <Proxy group="cameramanipulators" type="TrackballRoll" id="27" servers="16">
+      <Property name="Button" id="27.Button" number_of_elements="1">
+        <Element index="0" value="1"/>
+      </Property>
+      <Property name="Control" id="27.Control" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="IsControlPressed" id="27.Control.IsControlPressed"/>
+      </Property>
+      <Property name="ManipulatorName" id="27.ManipulatorName" number_of_elements="1">
+        <Element index="0" value=""/>
+      </Property>
+      <Property name="Shift" id="27.Shift" number_of_elements="1">
+        <Element index="0" value="1"/>
+        <Domain name="IsShiftPressed" id="27.Shift.IsShiftPressed"/>
+      </Property>
+    </Proxy>
+    <Proxy group="cameramanipulators" type="TrackballZoom" id="29" servers="16">
+      <Property name="Button" id="29.Button" number_of_elements="1">
+        <Element index="0" value="1"/>
+      </Property>
+      <Property name="Control" id="29.Control" number_of_elements="1">
+        <Element index="0" value="1"/>
+        <Domain name="IsControlPressed" id="29.Control.IsControlPressed"/>
+      </Property>
+      <Property name="ManipulatorName" id="29.ManipulatorName" number_of_elements="1">
+        <Element index="0" value=""/>
+      </Property>
+      <Property name="Shift" id="29.Shift" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="IsShiftPressed" id="29.Shift.IsShiftPressed"/>
+      </Property>
+    </Proxy>
+    <Proxy group="cameramanipulators" type="TrackballPan1" id="31" servers="16">
+      <Property name="Button" id="31.Button" number_of_elements="1">
+        <Element index="0" value="2"/>
+      </Property>
+      <Property name="Control" id="31.Control" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="IsControlPressed" id="31.Control.IsControlPressed"/>
+      </Property>
+      <Property name="ManipulatorName" id="31.ManipulatorName" number_of_elements="1">
+        <Element index="0" value=""/>
+      </Property>
+      <Property name="Shift" id="31.Shift" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="IsShiftPressed" id="31.Shift.IsShiftPressed"/>
+      </Property>
+    </Proxy>
+    <Proxy group="cameramanipulators" type="TrackballRotate" id="33" servers="16">
+      <Property name="Button" id="33.Button" number_of_elements="1">
+        <Element index="0" value="2"/>
+      </Property>
+      <Property name="Control" id="33.Control" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="IsControlPressed" id="33.Control.IsControlPressed"/>
+      </Property>
+      <Property name="ManipulatorName" id="33.ManipulatorName" number_of_elements="1">
+        <Element index="0" value=""/>
+      </Property>
+      <Property name="Shift" id="33.Shift" number_of_elements="1">
+        <Element index="0" value="1"/>
+        <Domain name="IsShiftPressed" id="33.Shift.IsShiftPressed"/>
+      </Property>
+    </Proxy>
+    <Proxy group="cameramanipulators" type="TrackballRotate" id="35" servers="16">
+      <Property name="Button" id="35.Button" number_of_elements="1">
+        <Element index="0" value="2"/>
+      </Property>
+      <Property name="Control" id="35.Control" number_of_elements="1">
+        <Element index="0" value="1"/>
+        <Domain name="IsControlPressed" id="35.Control.IsControlPressed"/>
+      </Property>
+      <Property name="ManipulatorName" id="35.ManipulatorName" number_of_elements="1">
+        <Element index="0" value=""/>
+      </Property>
+      <Property name="Shift" id="35.Shift" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="IsShiftPressed" id="35.Shift.IsShiftPressed"/>
+      </Property>
+    </Proxy>
+    <Proxy group="cameramanipulators" type="TrackballZoom" id="37" servers="16">
+      <Property name="Button" id="37.Button" number_of_elements="1">
+        <Element index="0" value="3"/>
+      </Property>
+      <Property name="Control" id="37.Control" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="IsControlPressed" id="37.Control.IsControlPressed"/>
+      </Property>
+      <Property name="ManipulatorName" id="37.ManipulatorName" number_of_elements="1">
+        <Element index="0" value=""/>
+      </Property>
+      <Property name="Shift" id="37.Shift" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="IsShiftPressed" id="37.Shift.IsShiftPressed"/>
+      </Property>
+    </Proxy>
+    <Proxy group="cameramanipulators" type="TrackballPan1" id="39" servers="16">
+      <Property name="Button" id="39.Button" number_of_elements="1">
+        <Element index="0" value="3"/>
+      </Property>
+      <Property name="Control" id="39.Control" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="IsControlPressed" id="39.Control.IsControlPressed"/>
+      </Property>
+      <Property name="ManipulatorName" id="39.ManipulatorName" number_of_elements="1">
+        <Element index="0" value=""/>
+      </Property>
+      <Property name="Shift" id="39.Shift" number_of_elements="1">
+        <Element index="0" value="1"/>
+        <Domain name="IsShiftPressed" id="39.Shift.IsShiftPressed"/>
+      </Property>
+    </Proxy>
+    <Proxy group="cameramanipulators" type="TrackballZoom" id="41" servers="16">
+      <Property name="Button" id="41.Button" number_of_elements="1">
+        <Element index="0" value="3"/>
+      </Property>
+      <Property name="Control" id="41.Control" number_of_elements="1">
+        <Element index="0" value="1"/>
+        <Domain name="IsControlPressed" id="41.Control.IsControlPressed"/>
+      </Property>
+      <Property name="ManipulatorName" id="41.ManipulatorName" number_of_elements="1">
+        <Element index="0" value=""/>
+      </Property>
+      <Property name="Shift" id="41.Shift" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="IsShiftPressed" id="41.Shift.IsShiftPressed"/>
+      </Property>
+    </Proxy>
+    <Proxy group="filters" type="ExtractHistogram" id="58" servers="1">
+      <Property name="BinCount" id="58.BinCount" number_of_elements="1">
         <Element index="0" value="10"/>
-        <Domain name="range" id="132.BinCount.range">
+        <Domain name="range" id="58.BinCount.range">
           <Min index="0" value="1"/>
           <Max index="0" value="256"/>
         </Domain>
       </Property>
-      <Property name="Component" id="132.Component" number_of_elements="1">
+      <Property name="Component" id="58.Component" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="range" id="132.Component.range">
+        <Domain name="range" id="58.Component.range">
           <Min index="0" value="0"/>
           <Max index="0" value="15"/>
         </Domain>
       </Property>
-      <Property name="Input" id="132.Input" number_of_elements="1">
-        <Proxy value="45"/>
-        <Domain name="groups" id="132.Input.groups">
+      <Property name="Input" id="58.Input" number_of_elements="1">
+        <Proxy value="54"/>
+        <Domain name="groups" id="58.Input.groups">
           <Group value="sources"/>
           <Group value="filters"/>
         </Domain>
-        <Domain name="input_array" id="132.Input.input_array">
+        <Domain name="input_array" id="58.Input.input_array">
           <InputArray attribute_type="any" number_of_components="0"/>
         </Domain>
-        <Domain name="input_type" id="132.Input.input_type">
+        <Domain name="input_type" id="58.Input.input_type">
           <DataType value="vtkDataSet"/>
         </Domain>
       </Property>
-      <Property name="SelectInputArray" id="132.SelectInputArray" number_of_elements="5">
+      <Property name="SelectInputArray" id="58.SelectInputArray" number_of_elements="5">
         <Element index="0" value=""/>
         <Element index="1" value=""/>
         <Element index="2" value=""/>
         <Element index="3" value="0"/>
         <Element index="4" value="RTData"/>
-        <Domain name="array_list" id="132.SelectInputArray.array_list">
+        <Domain name="array_list" id="58.SelectInputArray.array_list">
           <String text="RTData"/>
         </Domain>
-        <Domain name="field_list" id="132.SelectInputArray.field_list">
+        <Domain name="field_list" id="58.SelectInputArray.field_list">
           <Entry value="0" text="Point Data"/>
         </Domain>
       </Property>
     </Proxy>
-    <Proxy group="sources" type="RTAnalyticSource" id="45" servers="1">
-      <Property name="Center" id="45.Center" number_of_elements="3">
+    <Proxy group="sources" type="RTAnalyticSource" id="54" servers="1">
+      <Property name="Center" id="54.Center" number_of_elements="3">
         <Element index="0" value="0"/>
         <Element index="1" value="0"/>
         <Element index="2" value="0"/>
-        <Domain name="range" id="45.Center.range"/>
+        <Domain name="range" id="54.Center.range"/>
       </Property>
-      <Property name="Maximum" id="45.Maximum" number_of_elements="1">
+      <Property name="Maximum" id="54.Maximum" number_of_elements="1">
         <Element index="0" value="255"/>
-        <Domain name="range" id="45.Maximum.range"/>
+        <Domain name="range" id="54.Maximum.range"/>
       </Property>
-      <Property name="StandardDeviation" id="45.StandardDeviation" number_of_elements="1">
+      <Property name="StandardDeviation" id="54.StandardDeviation" number_of_elements="1">
         <Element index="0" value="0.5"/>
-        <Domain name="range" id="45.StandardDeviation.range"/>
+        <Domain name="range" id="54.StandardDeviation.range"/>
       </Property>
-      <Property name="SubsampleRate" id="45.SubsampleRate" number_of_elements="1">
+      <Property name="SubsampleRate" id="54.SubsampleRate" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="range" id="45.SubsampleRate.range">
+        <Domain name="range" id="54.SubsampleRate.range">
           <Min index="0" value="1"/>
         </Domain>
       </Property>
-      <Property name="WholeExtent" id="45.WholeExtent" number_of_elements="6">
+      <Property name="WholeExtent" id="54.WholeExtent" number_of_elements="6">
         <Element index="0" value="-10"/>
         <Element index="1" value="10"/>
         <Element index="2" value="-10"/>
         <Element index="3" value="10"/>
         <Element index="4" value="-10"/>
         <Element index="5" value="10"/>
-        <Domain name="range" id="45.WholeExtent.range"/>
+        <Domain name="range" id="54.WholeExtent.range"/>
       </Property>
-      <Property name="XFreq" id="45.XFreq" number_of_elements="1">
+      <Property name="XFreq" id="54.XFreq" number_of_elements="1">
         <Element index="0" value="60"/>
-        <Domain name="range" id="45.XFreq.range"/>
+        <Domain name="range" id="54.XFreq.range"/>
       </Property>
-      <Property name="XMag" id="45.XMag" number_of_elements="1">
+      <Property name="XMag" id="54.XMag" number_of_elements="1">
         <Element index="0" value="10"/>
-        <Domain name="range" id="45.XMag.range"/>
+        <Domain name="range" id="54.XMag.range"/>
       </Property>
-      <Property name="YFreq" id="45.YFreq" number_of_elements="1">
+      <Property name="YFreq" id="54.YFreq" number_of_elements="1">
         <Element index="0" value="30"/>
-        <Domain name="range" id="45.YFreq.range"/>
+        <Domain name="range" id="54.YFreq.range"/>
       </Property>
-      <Property name="YMag" id="45.YMag" number_of_elements="1">
+      <Property name="YMag" id="54.YMag" number_of_elements="1">
         <Element index="0" value="18"/>
-        <Domain name="range" id="45.YMag.range"/>
+        <Domain name="range" id="54.YMag.range"/>
       </Property>
-      <Property name="ZFreq" id="45.ZFreq" number_of_elements="1">
+      <Property name="ZFreq" id="54.ZFreq" number_of_elements="1">
         <Element index="0" value="40"/>
-        <Domain name="range" id="45.ZFreq.range"/>
+        <Domain name="range" id="54.ZFreq.range"/>
       </Property>
-      <Property name="ZMag" id="45.ZMag" number_of_elements="1">
+      <Property name="ZMag" id="54.ZMag" number_of_elements="1">
         <Element index="0" value="5"/>
-        <Domain name="range" id="45.ZMag.range"/>
+        <Domain name="range" id="54.ZMag.range"/>
       </Property>
     </Proxy>
     <Proxy group="misc" type="TimeKeeper" id="4" servers="16">
@@ -594,127 +804,157 @@
       </Property>
       <Property name="TimestepValues" id="4.TimestepValues"/>
     </Proxy>
-    <Proxy group="plotmodules" type="BarChartViewModule" id="135" servers="20">
-      <Property name="Displays" id="135.Displays" number_of_elements="1">
-        <Proxy value="136"/>
-        <Domain name="groups" id="135.Displays.groups">
+    <Proxy group="plotmodules" type="BarChartViewModule" id="59" servers="20">
+      <Property name="Displays" id="59.Displays" number_of_elements="1">
+        <Proxy value="147"/>
+        <Domain name="groups" id="59.Displays.groups">
           <Group value="displays"/>
         </Domain>
       </Property>
-      <Property name="GUISize" id="135.GUISize" number_of_elements="2">
-        <Element index="0" value="664"/>
-        <Element index="1" value="666"/>
-        <Domain name="range" id="135.GUISize.range">
+      <Property name="GUISize" id="59.GUISize" number_of_elements="2">
+        <Element index="0" value="641"/>
+        <Element index="1" value="507"/>
+        <Domain name="range" id="59.GUISize.range">
           <Min index="0" value="0"/>
           <Min index="1" value="0"/>
         </Domain>
       </Property>
-      <Property name="WindowPosition" id="135.WindowPosition" number_of_elements="2">
+      <Property name="ViewTime" id="59.ViewTime" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Element index="1" value="348"/>
-        <Domain name="range" id="135.WindowPosition.range">
+        <Domain name="range" id="59.ViewTime.range"/>
+      </Property>
+      <Property name="WindowPosition" id="59.WindowPosition" number_of_elements="2">
+        <Element index="0" value="0"/>
+        <Element index="1" value="269"/>
+        <Domain name="range" id="59.WindowPosition.range">
           <Min index="0" value="0"/>
           <Min index="1" value="0"/>
         </Domain>
       </Property>
     </Proxy>
-    <Proxy group="rendermodules" type="LODRenderModule" id="13" servers="20">
-      <Property name="CacheLimit" id="13.CacheLimit" number_of_elements="1">
+    <Proxy group="views" type="ElementInspectorView" id="51" servers="20">
+      <Property name="Displays" id="51.Displays" number_of_elements="0">
+        <Domain name="groups" id="51.Displays.groups">
+          <Group value="displays"/>
+        </Domain>
+      </Property>
+      <Property name="GUISize" id="51.GUISize" number_of_elements="2">
+        <Element index="0" value="300"/>
+        <Element index="1" value="300"/>
+        <Domain name="range" id="51.GUISize.range">
+          <Min index="0" value="0"/>
+          <Min index="1" value="0"/>
+        </Domain>
+      </Property>
+      <Property name="ViewTime" id="51.ViewTime" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="range" id="51.ViewTime.range"/>
+      </Property>
+      <Property name="WindowPosition" id="51.WindowPosition" number_of_elements="2">
+        <Element index="0" value="0"/>
+        <Element index="1" value="0"/>
+        <Domain name="range" id="51.WindowPosition.range">
+          <Min index="0" value="0"/>
+          <Min index="1" value="0"/>
+        </Domain>
+      </Property>
+    </Proxy>
+    <Proxy group="rendermodules" type="LODRenderModule" id="7" servers="20">
+      <Property name="CacheLimit" id="7.CacheLimit" number_of_elements="1">
         <Element index="0" value="102400"/>
-        <Domain name="range" id="13.CacheLimit.range">
+        <Domain name="range" id="7.CacheLimit.range">
           <Min index="0" value="0"/>
         </Domain>
       </Property>
-      <Property name="Displays" id="13.Displays" number_of_elements="2">
-        <Proxy value="6"/>
-        <Proxy value="48"/>
-        <Domain name="groups" id="13.Displays.groups">
+      <Property name="Displays" id="7.Displays" number_of_elements="1">
+        <Proxy value="55"/>
+        <Domain name="groups" id="7.Displays.groups">
           <Group value="displays"/>
           <Group value="axes"/>
           <Group value="3d_widgets"/>
         </Domain>
       </Property>
-      <Property name="GUISize" id="13.GUISize" number_of_elements="2">
-        <Element index="0" value="664"/>
-        <Element index="1" value="666"/>
-        <Domain name="range" id="13.GUISize.range">
+      <Property name="GUISize" id="7.GUISize" number_of_elements="2">
+        <Element index="0" value="641"/>
+        <Element index="1" value="507"/>
+        <Domain name="range" id="7.GUISize.range">
           <Min index="0" value="0"/>
           <Min index="1" value="0"/>
         </Domain>
       </Property>
-      <Property name="LODResolution" id="13.LODResolution" number_of_elements="1">
+      <Property name="LODResolution" id="7.LODResolution" number_of_elements="1">
         <Element index="0" value="10"/>
-        <Domain name="range" id="13.LODResolution.range"/>
+        <Domain name="range" id="7.LODResolution.range"/>
       </Property>
-      <Property name="LODThreshold" id="13.LODThreshold" number_of_elements="1">
+      <Property name="LODThreshold" id="7.LODThreshold" number_of_elements="1">
         <Element index="0" value="1e+299"/>
-        <Domain name="range" id="13.LODThreshold.range"/>
+        <Domain name="range" id="7.LODThreshold.range"/>
       </Property>
-      <Property name="RenderInterruptsEnabled" id="13.RenderInterruptsEnabled" number_of_elements="1">
+      <Property name="RenderInterruptsEnabled" id="7.RenderInterruptsEnabled" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="bool" id="13.RenderInterruptsEnabled.bool"/>
+        <Domain name="bool" id="7.RenderInterruptsEnabled.bool"/>
       </Property>
-      <Property name="UseImmediateMode" id="13.UseImmediateMode" number_of_elements="1">
+      <Property name="UseImmediateMode" id="7.UseImmediateMode" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="bool" id="13.UseImmediateMode.bool"/>
+        <Domain name="bool" id="7.UseImmediateMode.bool"/>
       </Property>
-      <Property name="UseLight" id="13.UseLight" number_of_elements="1">
+      <Property name="UseLight" id="7.UseLight" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="bool" id="13.UseLight.bool"/>
+        <Domain name="bool" id="7.UseLight.bool"/>
       </Property>
-      <Property name="UseTriangleStrips" id="13.UseTriangleStrips" number_of_elements="1">
+      <Property name="UseTriangleStrips" id="7.UseTriangleStrips" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="bool" id="13.UseTriangleStrips.bool"/>
+        <Domain name="bool" id="7.UseTriangleStrips.bool"/>
       </Property>
-      <Property name="ViewTime" id="13.ViewTime" number_of_elements="1">
+      <Property name="ViewTime" id="7.ViewTime" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="range" id="13.ViewTime.range"/>
+        <Domain name="range" id="7.ViewTime.range"/>
       </Property>
-      <Property name="WindowPosition" id="13.WindowPosition" number_of_elements="2">
+      <Property name="WindowPosition" id="7.WindowPosition" number_of_elements="2">
         <Element index="0" value="0"/>
         <Element index="1" value="0"/>
-        <Domain name="range" id="13.WindowPosition.range">
+        <Domain name="range" id="7.WindowPosition.range">
           <Min index="0" value="0"/>
           <Min index="1" value="0"/>
         </Domain>
       </Property>
-      <Property name="BackLightAzimuth" id="13.BackLightAzimuth" number_of_elements="1">
+      <Property name="BackLightAzimuth" id="7.BackLightAzimuth" number_of_elements="1">
         <Element index="0" value="110"/>
-        <Domain name="range" id="13.BackLightAzimuth.range">
+        <Domain name="range" id="7.BackLightAzimuth.range">
           <Min index="0" value="60"/>
           <Max index="0" value="170"/>
           <Resolution index="0" value="1"/>
         </Domain>
       </Property>
-      <Property name="BackLightElevation" id="13.BackLightElevation" number_of_elements="1">
+      <Property name="BackLightElevation" id="7.BackLightElevation" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="range" id="13.BackLightElevation.range">
+        <Domain name="range" id="7.BackLightElevation.range">
           <Min index="0" value="-45"/>
           <Max index="0" value="45"/>
           <Resolution index="0" value="1"/>
         </Domain>
       </Property>
-      <Property name="BackLightK:B Ratio" id="13.BackLightK:B Ratio" number_of_elements="1">
+      <Property name="BackLightK:B Ratio" id="7.BackLightK:B Ratio" number_of_elements="1">
         <Element index="0" value="3.5"/>
-        <Domain name="range" id="13.BackLightK:B Ratio.range">
+        <Domain name="range" id="7.BackLightK:B Ratio.range">
           <Min index="0" value="1"/>
           <Max index="0" value="15"/>
           <Resolution index="0" value="0.1"/>
         </Domain>
       </Property>
-      <Property name="BackLightWarmth" id="13.BackLightWarmth" number_of_elements="1">
+      <Property name="BackLightWarmth" id="7.BackLightWarmth" number_of_elements="1">
         <Element index="0" value="0.5"/>
-        <Domain name="range" id="13.BackLightWarmth.range">
+        <Domain name="range" id="7.BackLightWarmth.range">
           <Min index="0" value="0"/>
           <Max index="0" value="1"/>
           <Resolution index="0" value="0.01"/>
         </Domain>
       </Property>
-      <Property name="Background" id="13.Background" number_of_elements="3">
+      <Property name="Background" id="7.Background" number_of_elements="3">
         <Element index="0" value="0.329412"/>
         <Element index="1" value="0.34902"/>
         <Element index="2" value="0.427451"/>
-        <Domain name="range" id="13.Background.range">
+        <Domain name="range" id="7.Background.range">
           <Min index="0" value="0"/>
           <Min index="1" value="0"/>
           <Min index="2" value="0"/>
@@ -723,155 +963,155 @@
           <Max index="2" value="1"/>
         </Domain>
       </Property>
-      <Property name="CameraClippingRange" id="13.CameraClippingRange" number_of_elements="2">
+      <Property name="CameraClippingRange" id="7.CameraClippingRange" number_of_elements="2">
         <Element index="0" value="46.3521"/>
         <Element index="1" value="92.9751"/>
       </Property>
-      <Property name="CameraClippingRangeInfo" id="13.CameraClippingRangeInfo" number_of_elements="2">
+      <Property name="CameraClippingRangeInfo" id="7.CameraClippingRangeInfo" number_of_elements="2">
         <Element index="0" value="46.3521"/>
         <Element index="1" value="92.9751"/>
       </Property>
-      <Property name="CameraFocalPoint" id="13.CameraFocalPoint" number_of_elements="3">
+      <Property name="CameraFocalPoint" id="7.CameraFocalPoint" number_of_elements="3">
         <Element index="0" value="0"/>
         <Element index="1" value="0"/>
         <Element index="2" value="0"/>
       </Property>
-      <Property name="CameraFocalPointInfo" id="13.CameraFocalPointInfo" number_of_elements="3">
+      <Property name="CameraFocalPointInfo" id="7.CameraFocalPointInfo" number_of_elements="3">
         <Element index="0" value="0"/>
         <Element index="1" value="0"/>
         <Element index="2" value="0"/>
       </Property>
-      <Property name="CameraParallelProjection" id="13.CameraParallelProjection" number_of_elements="1">
+      <Property name="CameraParallelProjection" id="7.CameraParallelProjection" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="bool" id="13.CameraParallelProjection.bool"/>
+        <Domain name="bool" id="7.CameraParallelProjection.bool"/>
       </Property>
-      <Property name="CameraParallelScale" id="13.CameraParallelScale" number_of_elements="1">
+      <Property name="CameraParallelScale" id="7.CameraParallelScale" number_of_elements="1">
         <Element index="0" value="1"/>
       </Property>
-      <Property name="CameraPosition" id="13.CameraPosition" number_of_elements="3">
+      <Property name="CameraPosition" id="7.CameraPosition" number_of_elements="3">
         <Element index="0" value="0"/>
         <Element index="1" value="0"/>
         <Element index="2" value="66.9213"/>
       </Property>
-      <Property name="CameraPositionInfo" id="13.CameraPositionInfo" number_of_elements="3">
+      <Property name="CameraPositionInfo" id="7.CameraPositionInfo" number_of_elements="3">
         <Element index="0" value="0"/>
         <Element index="1" value="0"/>
         <Element index="2" value="66.9213"/>
       </Property>
-      <Property name="CameraViewAngle" id="13.CameraViewAngle" number_of_elements="1">
+      <Property name="CameraViewAngle" id="7.CameraViewAngle" number_of_elements="1">
         <Element index="0" value="30"/>
       </Property>
-      <Property name="CameraViewUp" id="13.CameraViewUp" number_of_elements="3">
+      <Property name="CameraViewUp" id="7.CameraViewUp" number_of_elements="3">
         <Element index="0" value="0"/>
         <Element index="1" value="1"/>
         <Element index="2" value="0"/>
       </Property>
-      <Property name="CameraViewUpInfo" id="13.CameraViewUpInfo" number_of_elements="3">
+      <Property name="CameraViewUpInfo" id="7.CameraViewUpInfo" number_of_elements="3">
         <Element index="0" value="0"/>
         <Element index="1" value="1"/>
         <Element index="2" value="0"/>
       </Property>
-      <Property name="EyeAngle" id="13.EyeAngle" number_of_elements="1">
+      <Property name="EyeAngle" id="7.EyeAngle" number_of_elements="1">
         <Element index="0" value="2"/>
-        <Domain name="range" id="13.EyeAngle.range">
+        <Domain name="range" id="7.EyeAngle.range">
           <Min index="0" value="0"/>
         </Domain>
       </Property>
-      <Property name="FillLightAzimuth" id="13.FillLightAzimuth" number_of_elements="1">
+      <Property name="FillLightAzimuth" id="7.FillLightAzimuth" number_of_elements="1">
         <Element index="0" value="-10"/>
-        <Domain name="range" id="13.FillLightAzimuth.range">
+        <Domain name="range" id="7.FillLightAzimuth.range">
           <Min index="0" value="-90"/>
           <Max index="0" value="90"/>
           <Resolution index="0" value="1"/>
         </Domain>
       </Property>
-      <Property name="FillLightElevation" id="13.FillLightElevation" number_of_elements="1">
+      <Property name="FillLightElevation" id="7.FillLightElevation" number_of_elements="1">
         <Element index="0" value="-75"/>
-        <Domain name="range" id="13.FillLightElevation.range">
+        <Domain name="range" id="7.FillLightElevation.range">
           <Min index="0" value="-90"/>
           <Max index="0" value="10"/>
           <Resolution index="0" value="1"/>
         </Domain>
       </Property>
-      <Property name="FillLightK:F Ratio" id="13.FillLightK:F Ratio" number_of_elements="1">
+      <Property name="FillLightK:F Ratio" id="7.FillLightK:F Ratio" number_of_elements="1">
         <Element index="0" value="3"/>
-        <Domain name="range" id="13.FillLightK:F Ratio.range">
+        <Domain name="range" id="7.FillLightK:F Ratio.range">
           <Min index="0" value="1"/>
           <Max index="0" value="15"/>
           <Resolution index="0" value="0.1"/>
         </Domain>
       </Property>
-      <Property name="FillLightWarmth" id="13.FillLightWarmth" number_of_elements="1">
+      <Property name="FillLightWarmth" id="7.FillLightWarmth" number_of_elements="1">
         <Element index="0" value="0.4"/>
-        <Domain name="range" id="13.FillLightWarmth.range">
+        <Domain name="range" id="7.FillLightWarmth.range">
           <Min index="0" value="0"/>
           <Max index="0" value="1"/>
           <Resolution index="0" value="0.01"/>
         </Domain>
       </Property>
-      <Property name="FullScreen" id="13.FullScreen" number_of_elements="1">
+      <Property name="FullScreen" id="7.FullScreen" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="bool" id="13.FullScreen.bool"/>
+        <Domain name="bool" id="7.FullScreen.bool"/>
       </Property>
-      <Property name="HeadLightK:H Ratio" id="13.HeadLightK:H Ratio" number_of_elements="1">
+      <Property name="HeadLightK:H Ratio" id="7.HeadLightK:H Ratio" number_of_elements="1">
         <Element index="0" value="3"/>
-        <Domain name="range" id="13.HeadLightK:H Ratio.range">
+        <Domain name="range" id="7.HeadLightK:H Ratio.range">
           <Min index="0" value="1"/>
           <Max index="0" value="15"/>
           <Resolution index="0" value="0.1"/>
         </Domain>
       </Property>
-      <Property name="HeadLightWarmth" id="13.HeadLightWarmth" number_of_elements="1">
+      <Property name="HeadLightWarmth" id="7.HeadLightWarmth" number_of_elements="1">
         <Element index="0" value="0.5"/>
-        <Domain name="range" id="13.HeadLightWarmth.range">
+        <Domain name="range" id="7.HeadLightWarmth.range">
           <Min index="0" value="0"/>
           <Max index="0" value="1"/>
           <Resolution index="0" value="0.01"/>
         </Domain>
       </Property>
-      <Property name="InteractorStyle" id="13.InteractorStyle" number_of_elements="1">
-        <Proxy value="30"/>
-        <Domain name="groups" id="13.InteractorStyle.groups">
+      <Property name="InteractorStyle" id="7.InteractorStyle" number_of_elements="1">
+        <Proxy value="56"/>
+        <Domain name="groups" id="7.InteractorStyle.groups">
           <Group value="interactorstyles"/>
         </Domain>
       </Property>
-      <Property name="KeyLightAzimuth" id="13.KeyLightAzimuth" number_of_elements="1">
+      <Property name="KeyLightAzimuth" id="7.KeyLightAzimuth" number_of_elements="1">
         <Element index="0" value="10"/>
-        <Domain name="range" id="13.KeyLightAzimuth.range">
+        <Domain name="range" id="7.KeyLightAzimuth.range">
           <Min index="0" value="-90"/>
           <Max index="0" value="90"/>
           <Resolution index="0" value="1"/>
         </Domain>
       </Property>
-      <Property name="KeyLightElevation" id="13.KeyLightElevation" number_of_elements="1">
+      <Property name="KeyLightElevation" id="7.KeyLightElevation" number_of_elements="1">
         <Element index="0" value="50"/>
-        <Domain name="range" id="13.KeyLightElevation.range">
+        <Domain name="range" id="7.KeyLightElevation.range">
           <Min index="0" value="0"/>
           <Max index="0" value="90"/>
           <Resolution index="0" value="1"/>
         </Domain>
       </Property>
-      <Property name="KeyLightIntensity" id="13.KeyLightIntensity" number_of_elements="1">
+      <Property name="KeyLightIntensity" id="7.KeyLightIntensity" number_of_elements="1">
         <Element index="0" value="0.75"/>
-        <Domain name="range" id="13.KeyLightIntensity.range">
+        <Domain name="range" id="7.KeyLightIntensity.range">
           <Min index="0" value="0"/>
           <Max index="0" value="2"/>
           <Resolution index="0" value="0.05"/>
         </Domain>
       </Property>
-      <Property name="KeyLightWarmth" id="13.KeyLightWarmth" number_of_elements="1">
+      <Property name="KeyLightWarmth" id="7.KeyLightWarmth" number_of_elements="1">
         <Element index="0" value="0.6"/>
-        <Domain name="range" id="13.KeyLightWarmth.range">
+        <Domain name="range" id="7.KeyLightWarmth.range">
           <Min index="0" value="0"/>
           <Max index="0" value="1"/>
           <Resolution index="0" value="0.01"/>
         </Domain>
       </Property>
-      <Property name="LightAmbientColor" id="13.LightAmbientColor" number_of_elements="3">
+      <Property name="LightAmbientColor" id="7.LightAmbientColor" number_of_elements="3">
         <Element index="0" value="1"/>
         <Element index="1" value="1"/>
         <Element index="2" value="1"/>
-        <Domain name="range" id="13.LightAmbientColor.range">
+        <Domain name="range" id="7.LightAmbientColor.range">
           <Min index="0" value="0"/>
           <Min index="1" value="0"/>
           <Min index="2" value="0"/>
@@ -880,11 +1120,11 @@
           <Max index="2" value="1"/>
         </Domain>
       </Property>
-      <Property name="LightDiffuseColor" id="13.LightDiffuseColor" number_of_elements="3">
+      <Property name="LightDiffuseColor" id="7.LightDiffuseColor" number_of_elements="3">
         <Element index="0" value="1"/>
         <Element index="1" value="1"/>
         <Element index="2" value="1"/>
-        <Domain name="range" id="13.LightDiffuseColor.range">
+        <Domain name="range" id="7.LightDiffuseColor.range">
           <Min index="0" value="0"/>
           <Min index="1" value="0"/>
           <Min index="2" value="0"/>
@@ -893,18 +1133,18 @@
           <Max index="2" value="1"/>
         </Domain>
       </Property>
-      <Property name="LightIntensity" id="13.LightIntensity" number_of_elements="1">
+      <Property name="LightIntensity" id="7.LightIntensity" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="range" id="13.LightIntensity.range">
+        <Domain name="range" id="7.LightIntensity.range">
           <Min index="0" value="0"/>
           <Max index="0" value="1"/>
         </Domain>
       </Property>
-      <Property name="LightSpecularColor" id="13.LightSpecularColor" number_of_elements="3">
+      <Property name="LightSpecularColor" id="7.LightSpecularColor" number_of_elements="3">
         <Element index="0" value="1"/>
         <Element index="1" value="1"/>
         <Element index="2" value="1"/>
-        <Domain name="range" id="13.LightSpecularColor.range">
+        <Domain name="range" id="7.LightSpecularColor.range">
           <Min index="0" value="0"/>
           <Min index="1" value="0"/>
           <Min index="2" value="0"/>
@@ -913,27 +1153,27 @@
           <Max index="2" value="1"/>
         </Domain>
       </Property>
-      <Property name="LightSwitch" id="13.LightSwitch" number_of_elements="1">
+      <Property name="LightSwitch" id="7.LightSwitch" number_of_elements="1">
         <Element index="0" value="1"/>
-        <Domain name="bool" id="13.LightSwitch.bool"/>
+        <Domain name="bool" id="7.LightSwitch.bool"/>
       </Property>
-      <Property name="MaintainLuminance" id="13.MaintainLuminance" number_of_elements="1">
+      <Property name="MaintainLuminance" id="7.MaintainLuminance" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="bool" id="13.MaintainLuminance.bool"/>
+        <Domain name="bool" id="7.MaintainLuminance.bool"/>
       </Property>
-      <Property name="OffScreenRendering" id="13.OffScreenRendering" number_of_elements="1">
+      <Property name="OffScreenRendering" id="7.OffScreenRendering" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="bool" id="13.OffScreenRendering.bool"/>
+        <Domain name="bool" id="7.OffScreenRendering.bool"/>
       </Property>
-      <Property name="RenderWindowSize" id="13.RenderWindowSize" number_of_elements="2">
+      <Property name="RenderWindowSize" id="7.RenderWindowSize" number_of_elements="2">
         <Element index="0" value="400"/>
         <Element index="1" value="400"/>
-        <Domain name="range" id="13.RenderWindowSize.range">
+        <Domain name="range" id="7.RenderWindowSize.range">
           <Min index="0" value="0"/>
           <Min index="1" value="0"/>
         </Domain>
       </Property>
-      <Property name="RenderWindowSizeInfo" id="13.RenderWindowSizeInfo" number_of_elements="2">
+      <Property name="RenderWindowSizeInfo" id="7.RenderWindowSizeInfo" number_of_elements="2">
         <Element index="0" value="664"/>
         <Element index="1" value="666"/>
       </Property>
@@ -947,44 +1187,60 @@
       <SubProxy name="Renderer2D" servers="20"/>
     </Proxy>
     <ProxyCollection name="LODRenderModule_CameraManipulators">
-      <Item id="31" name="31"/>
-      <Item id="32" name="32"/>
-      <Item id="34" name="34"/>
-      <Item id="36" name="36"/>
-      <Item id="38" name="38"/>
+      <Item id="60" name="31"/>
+      <Item id="62" name="32"/>
+      <Item id="64" name="34"/>
+      <Item id="66" name="36"/>
+      <Item id="68" name="38"/>
     </ProxyCollection>
     <ProxyCollection name="LODRenderModule_InteractorStyles">
-      <Item id="30" name="30"/>
+      <Item id="56" name="30"/>
     </ProxyCollection>
     <ProxyCollection name="animation">
-      <Item id="42" name="PVAnimationScene1"/>
+      <Item id="6" name="PVAnimationScene1"/>
     </ProxyCollection>
     <ProxyCollection name="displays">
-      <Item id="136" name="136"/>
-      <Item id="48" name="48"/>
+      <Item id="147" name="136"/>
+      <Item id="55" name="48"/>
     </ProxyCollection>
     <ProxyCollection name="lookup_tables">
-      <Item id="130" name="1.RTData"/>
+      <Item id="136" name="1.RTData"/>
+    </ProxyCollection>
+    <ProxyCollection name="multirendermodule">
+      <Item id="5" name="5"/>
+    </ProxyCollection>
+    <ProxyCollection name="pq_helper_proxies.7">
+      <Item id="24" name="InteractorStyles"/>
+      <Item id="25" name="Manipulators"/>
+      <Item id="27" name="Manipulators"/>
+      <Item id="29" name="Manipulators"/>
+      <Item id="31" name="Manipulators"/>
+      <Item id="33" name="Manipulators"/>
+      <Item id="35" name="Manipulators"/>
+      <Item id="37" name="Manipulators"/>
+      <Item id="39" name="Manipulators"/>
+      <Item id="41" name="Manipulators"/>
     </ProxyCollection>
     <ProxyCollection name="sources">
-      <Item id="132" name="ExtractHistogram1"/>
-      <Item id="45" name="RTAnalyticSource1"/>
+      <Item id="58" name="ExtractHistogram1"/>
+      <Item id="54" name="RTAnalyticSource1"/>
     </ProxyCollection>
     <ProxyCollection name="timekeeper">
       <Item id="4" name="TimeKeeper"/>
     </ProxyCollection>
     <ProxyCollection name="view_modules">
-      <Item id="135" name="BarChartViewModule1"/>
-      <Item id="13" name="LODRenderModule1"/>
+      <Item id="59" name="BarChartViewModule1"/>
+      <Item id="51" name="ElementInspectorView1"/>
+      <Item id="7" name="LODRenderModule1"/>
     </ProxyCollection>
     <CompoundProxyDefinitions/>
     <Links/>
   </ServerManagerState>
-  <ViewManager>
+  <ViewManager version="2.9.10">
     <MultiView>
-      <Splitter index="0" orientation="Vertical" count="2" sizes="342.342"/>
+      <Splitter index="0" orientation="Vertical" count="2" sizes="263.262"/>
     </MultiView>
-    <Frame index="0" view_module="13"/>
-    <Frame index="1" view_module="135"/>
+    <Frame index="0" view_module="7"/>
+    <Frame index="1" view_module="59"/>
   </ViewManager>
 </ParaView>
