@@ -151,11 +151,6 @@
           <Group value="cameramanipulators"/>
         </Domain>
       </Property>
-      <Property name="CenterOfRotation" id="30.CenterOfRotation" number_of_elements="3">
-        <Element index="0" value="0"/>
-        <Element index="1" value="0"/>
-        <Element index="2" value="0"/>
-      </Property>
     </Proxy>
     <Proxy group="animation" type="PVAnimationScene" id="42" servers="16">
       <Property name="Caching" id="42.Caching" number_of_elements="1">
