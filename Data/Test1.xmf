@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" [
+<!ENTITY HeavyData "Test1.h5">
+]>
+
+
+
+<Xdmf>
+  <Domain>
+    <Grid Name="Unnamed">
+      <Topology  Type="TETRAHEDRON"
+         Dimensions="18"><DataStructure
+           DataType="Int"
+           Dimensions="18 4"
+           Format="HDF">
+             Test1.h5:/Unnamed/Connections
+        </DataStructure>
+      </Topology>
+      <Geometry Type="XYZ">
+        <DataStructure
+           DataType="Float"
+           Precision="4"
+           Dimensions="16 3"
+           Format="HDF">
+           Test1.h5:/Unnamed/XYZ
+          
+        </DataStructure>
+      </Geometry>
+      <Attribute
+         Center="Node"
+         Name="DataOne">
+        <DataStructure
+           DataType="Float"
+           Precision="8"
+           Dimensions="16"
+           Format="HDF">
+           Test1.h5:/Unnamed/DataOne
+          
+        </DataStructure>
+      </Attribute>
+      <Attribute
+         Center="Node"
+         Name="DataTwo">
+        <DataStructure
+           DataType="Float"
+           Precision="8"
+           Dimensions="16"
+           Format="HDF">
+           Test1.h5:/Unnamed/DataTwo
+          
+        </DataStructure>
+      </Attribute>
+      
+    </Grid>
+  </Domain>
+</Xdmf>

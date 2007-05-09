@@ -2,4 +2,5 @@
 
 *.bin           -crlf
 *.ex2           -crlf
+*.h5            -crlf
 *.png           -crlf
