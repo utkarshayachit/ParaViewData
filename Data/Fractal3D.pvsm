@@ -79,7 +79,7 @@
         </Domain>
       </Property>
       <Property name="Visibility" id="56.Visibility" number_of_elements="1">
-        <Element index="0" value="1"/>
+        <Element index="0" value="0"/>
         <Domain name="bool" id="56.Visibility.bool"/>
       </Property>
       <Property name="AmbientColor" id="56.AmbientColor" number_of_elements="3">
@@ -835,6 +835,22 @@
         </Domain>
       </Property>
     </Proxy>
+    <Proxy group="interactorstyles" type="InteractorStyle" id="261" servers="16">
+      <Property name="CameraManipulators" id="261.CameraManipulators" number_of_elements="9">
+        <Proxy value="262"/>
+        <Proxy value="264"/>
+        <Proxy value="266"/>
+        <Proxy value="268"/>
+        <Proxy value="270"/>
+        <Proxy value="272"/>
+        <Proxy value="274"/>
+        <Proxy value="276"/>
+        <Proxy value="278"/>
+        <Domain name="groups" id="261.CameraManipulators.groups">
+          <Group value="cameramanipulators"/>
+        </Domain>
+      </Property>
+    </Proxy>
     <Proxy group="interactorstyles" type="InteractorStyle" id="58" servers="16">
       <Property name="CameraManipulators" id="58.CameraManipulators" number_of_elements="9">
         <Proxy value="216"/>
@@ -1139,6 +1155,150 @@
         <Domain name="IsShiftPressed" id="258.Shift.IsShiftPressed"/>
       </Property>
     </Proxy>
+    <Proxy group="cameramanipulators" type="TrackballRotate" id="262" servers="16">
+      <Property name="Button" id="262.Button" number_of_elements="1">
+        <Element index="0" value="1"/>
+      </Property>
+      <Property name="Control" id="262.Control" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="IsControlPressed" id="262.Control.IsControlPressed"/>
+      </Property>
+      <Property name="ManipulatorName" id="262.ManipulatorName" number_of_elements="1">
+        <Element index="0" value=""/>
+      </Property>
+      <Property name="Shift" id="262.Shift" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="IsShiftPressed" id="262.Shift.IsShiftPressed"/>
+      </Property>
+    </Proxy>
+    <Proxy group="cameramanipulators" type="TrackballRoll" id="264" servers="16">
+      <Property name="Button" id="264.Button" number_of_elements="1">
+        <Element index="0" value="1"/>
+      </Property>
+      <Property name="Control" id="264.Control" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="IsControlPressed" id="264.Control.IsControlPressed"/>
+      </Property>
+      <Property name="ManipulatorName" id="264.ManipulatorName" number_of_elements="1">
+        <Element index="0" value=""/>
+      </Property>
+      <Property name="Shift" id="264.Shift" number_of_elements="1">
+        <Element index="0" value="1"/>
+        <Domain name="IsShiftPressed" id="264.Shift.IsShiftPressed"/>
+      </Property>
+    </Proxy>
+    <Proxy group="cameramanipulators" type="TrackballZoom" id="266" servers="16">
+      <Property name="Button" id="266.Button" number_of_elements="1">
+        <Element index="0" value="1"/>
+      </Property>
+      <Property name="Control" id="266.Control" number_of_elements="1">
+        <Element index="0" value="1"/>
+        <Domain name="IsControlPressed" id="266.Control.IsControlPressed"/>
+      </Property>
+      <Property name="ManipulatorName" id="266.ManipulatorName" number_of_elements="1">
+        <Element index="0" value=""/>
+      </Property>
+      <Property name="Shift" id="266.Shift" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="IsShiftPressed" id="266.Shift.IsShiftPressed"/>
+      </Property>
+    </Proxy>
+    <Proxy group="cameramanipulators" type="TrackballPan1" id="268" servers="16">
+      <Property name="Button" id="268.Button" number_of_elements="1">
+        <Element index="0" value="2"/>
+      </Property>
+      <Property name="Control" id="268.Control" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="IsControlPressed" id="268.Control.IsControlPressed"/>
+      </Property>
+      <Property name="ManipulatorName" id="268.ManipulatorName" number_of_elements="1">
+        <Element index="0" value=""/>
+      </Property>
+      <Property name="Shift" id="268.Shift" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="IsShiftPressed" id="268.Shift.IsShiftPressed"/>
+      </Property>
+    </Proxy>
+    <Proxy group="cameramanipulators" type="TrackballRotate" id="270" servers="16">
+      <Property name="Button" id="270.Button" number_of_elements="1">
+        <Element index="0" value="2"/>
+      </Property>
+      <Property name="Control" id="270.Control" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="IsControlPressed" id="270.Control.IsControlPressed"/>
+      </Property>
+      <Property name="ManipulatorName" id="270.ManipulatorName" number_of_elements="1">
+        <Element index="0" value=""/>
+      </Property>
+      <Property name="Shift" id="270.Shift" number_of_elements="1">
+        <Element index="0" value="1"/>
+        <Domain name="IsShiftPressed" id="270.Shift.IsShiftPressed"/>
+      </Property>
+    </Proxy>
+    <Proxy group="cameramanipulators" type="TrackballRotate" id="272" servers="16">
+      <Property name="Button" id="272.Button" number_of_elements="1">
+        <Element index="0" value="2"/>
+      </Property>
+      <Property name="Control" id="272.Control" number_of_elements="1">
+        <Element index="0" value="1"/>
+        <Domain name="IsControlPressed" id="272.Control.IsControlPressed"/>
+      </Property>
+      <Property name="ManipulatorName" id="272.ManipulatorName" number_of_elements="1">
+        <Element index="0" value=""/>
+      </Property>
+      <Property name="Shift" id="272.Shift" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="IsShiftPressed" id="272.Shift.IsShiftPressed"/>
+      </Property>
+    </Proxy>
+    <Proxy group="cameramanipulators" type="TrackballZoom" id="274" servers="16">
+      <Property name="Button" id="274.Button" number_of_elements="1">
+        <Element index="0" value="3"/>
+      </Property>
+      <Property name="Control" id="274.Control" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="IsControlPressed" id="274.Control.IsControlPressed"/>
+      </Property>
+      <Property name="ManipulatorName" id="274.ManipulatorName" number_of_elements="1">
+        <Element index="0" value=""/>
+      </Property>
+      <Property name="Shift" id="274.Shift" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="IsShiftPressed" id="274.Shift.IsShiftPressed"/>
+      </Property>
+    </Proxy>
+    <Proxy group="cameramanipulators" type="TrackballPan1" id="276" servers="16">
+      <Property name="Button" id="276.Button" number_of_elements="1">
+        <Element index="0" value="3"/>
+      </Property>
+      <Property name="Control" id="276.Control" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="IsControlPressed" id="276.Control.IsControlPressed"/>
+      </Property>
+      <Property name="ManipulatorName" id="276.ManipulatorName" number_of_elements="1">
+        <Element index="0" value=""/>
+      </Property>
+      <Property name="Shift" id="276.Shift" number_of_elements="1">
+        <Element index="0" value="1"/>
+        <Domain name="IsShiftPressed" id="276.Shift.IsShiftPressed"/>
+      </Property>
+    </Proxy>
+    <Proxy group="cameramanipulators" type="TrackballZoom" id="278" servers="16">
+      <Property name="Button" id="278.Button" number_of_elements="1">
+        <Element index="0" value="3"/>
+      </Property>
+      <Property name="Control" id="278.Control" number_of_elements="1">
+        <Element index="0" value="1"/>
+        <Domain name="IsControlPressed" id="278.Control.IsControlPressed"/>
+      </Property>
+      <Property name="ManipulatorName" id="278.ManipulatorName" number_of_elements="1">
+        <Element index="0" value=""/>
+      </Property>
+      <Property name="Shift" id="278.Shift" number_of_elements="1">
+        <Element index="0" value="0"/>
+        <Domain name="IsShiftPressed" id="278.Shift.IsShiftPressed"/>
+      </Property>
+    </Proxy>
     <Proxy group="cameramanipulators" type="TrackballRotate" id="216" servers="16">
       <Property name="Button" id="216.Button" number_of_elements="1">
         <Element index="0" value="1"/>
@@ -1359,10 +1519,7 @@
       </Property>
       <Property name="TimeStep" id="54.TimeStep" number_of_elements="1">
         <Element index="0" value="0"/>
-        <Domain name="range" id="54.TimeStep.range">
-          <Min index="0" value="0"/>
-          <Max index="0" value="10"/>
-        </Domain>
+        <Domain name="range" id="54.TimeStep.range"/>
       </Property>
       <Property name="TimeStepRangeInfo" id="54.TimeStepRangeInfo" number_of_elements="2">
         <Element index="0" value="0"/>
@@ -1513,22 +1670,22 @@
         </Domain>
       </Property>
       <Property name="CameraClippingRange" id="7.CameraClippingRange" number_of_elements="2">
-        <Element index="0" value="4.19027"/>
-        <Element index="1" value="12.4695"/>
+        <Element index="0" value="3.56744"/>
+        <Element index="1" value="10.5558"/>
       </Property>
       <Property name="CameraClippingRangeInfo" id="7.CameraClippingRangeInfo" number_of_elements="2">
-        <Element index="0" value="4.19027"/>
-        <Element index="1" value="12.4695"/>
+        <Element index="0" value="3.56744"/>
+        <Element index="1" value="10.5558"/>
       </Property>
       <Property name="CameraFocalPoint" id="7.CameraFocalPoint" number_of_elements="3">
-        <Element index="0" value="-0.5"/>
-        <Element index="1" value="0"/>
-        <Element index="2" value="1"/>
+        <Element index="0" value="-0.433097"/>
+        <Element index="1" value="0.0069142"/>
+        <Element index="2" value="0.815316"/>
       </Property>
       <Property name="CameraFocalPointInfo" id="7.CameraFocalPointInfo" number_of_elements="3">
-        <Element index="0" value="-0.5"/>
-        <Element index="1" value="0"/>
-        <Element index="2" value="1"/>
+        <Element index="0" value="-0.433097"/>
+        <Element index="1" value="0.0069142"/>
+        <Element index="2" value="0.815316"/>
       </Property>
       <Property name="CameraParallelProjection" id="7.CameraParallelProjection" number_of_elements="1">
         <Element index="0" value="0"/>
@@ -1538,14 +1695,14 @@
         <Element index="0" value="1"/>
       </Property>
       <Property name="CameraPosition" id="7.CameraPosition" number_of_elements="3">
-        <Element index="0" value="3.54812"/>
-        <Element index="1" value="-2.14353"/>
-        <Element index="2" value="-5.37157"/>
+        <Element index="0" value="2.99958"/>
+        <Element index="1" value="-1.81073"/>
+        <Element index="2" value="-4.58756"/>
       </Property>
       <Property name="CameraPositionInfo" id="7.CameraPositionInfo" number_of_elements="3">
-        <Element index="0" value="3.54812"/>
-        <Element index="1" value="-2.14353"/>
-        <Element index="2" value="-5.37157"/>
+        <Element index="0" value="2.99958"/>
+        <Element index="1" value="-1.81073"/>
+        <Element index="2" value="-4.58756"/>
       </Property>
       <Property name="CameraViewAngle" id="7.CameraViewAngle" number_of_elements="1">
         <Element index="0" value="30"/>
@@ -1561,9 +1718,9 @@
         <Element index="2" value="-0.491699"/>
       </Property>
       <Property name="CenterOfRotation" id="7.CenterOfRotation" number_of_elements="3">
-        <Element index="0" value="-0.5"/>
-        <Element index="1" value="0"/>
-        <Element index="2" value="1"/>
+        <Element index="0" value="-0.433097"/>
+        <Element index="1" value="0.0069142"/>
+        <Element index="2" value="0.815316"/>
       </Property>
       <Property name="EyeAngle" id="7.EyeAngle" number_of_elements="1">
         <Element index="0" value="2"/>
@@ -1728,8 +1885,8 @@
         </Domain>
       </Property>
       <Property name="RenderWindowSizeInfo" id="7.RenderWindowSizeInfo" number_of_elements="2">
-        <Element index="0" value="843"/>
-        <Element index="1" value="621"/>
+        <Element index="0" value="584"/>
+        <Element index="1" value="299"/>
       </Property>
       <SubProxy name="ActiveCamera" servers="16"/>
       <SubProxy name="Helper" servers="21"/>
@@ -1771,6 +1928,7 @@
     <ProxyCollection name="pq_helper_proxies.7">
       <Item id="24" name="InteractorStyles"/>
       <Item id="241" name="InteractorStyles"/>
+      <Item id="261" name="InteractorStyles"/>
       <Item id="58" name="InteractorStyles"/>
       <Item id="25" name="Manipulators"/>
       <Item id="27" name="Manipulators"/>
@@ -1790,6 +1948,15 @@
       <Item id="254" name="Manipulators"/>
       <Item id="256" name="Manipulators"/>
       <Item id="258" name="Manipulators"/>
+      <Item id="262" name="Manipulators"/>
+      <Item id="264" name="Manipulators"/>
+      <Item id="266" name="Manipulators"/>
+      <Item id="268" name="Manipulators"/>
+      <Item id="270" name="Manipulators"/>
+      <Item id="272" name="Manipulators"/>
+      <Item id="274" name="Manipulators"/>
+      <Item id="276" name="Manipulators"/>
+      <Item id="278" name="Manipulators"/>
       <Item id="216" name="Manipulators"/>
       <Item id="218" name="Manipulators"/>
       <Item id="220" name="Manipulators"/>
@@ -1816,7 +1983,7 @@
   </ServerManagerState>
   <ViewManager version="3.1.0">
     <MultiView>
-      <Splitter index="0" orientation="Horizontal" count="1" sizes="579"/>
+      <Splitter index="0" orientation="Horizontal" count="1" sizes="588"/>
     </MultiView>
     <Frame index="0" view_module="7"/>
   </ViewManager>
