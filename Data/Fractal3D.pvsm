@@ -441,7 +441,7 @@
         <Domain name="range" id="57.Position.range"/>
       </Property>
       <Property name="ScalarMode" id="57.ScalarMode" number_of_elements="1">
-        <Element index="0" value="3"/>
+        <Element index="0" value="4"/>
         <Domain name="enum" id="57.ScalarMode.enum">
           <Entry value="0" text="Default"/>
           <Entry value="1" text="UsePointData"/>
