@@ -1,5 +1,5 @@
 <ParaView>
-  <ServerManagerState version="3.1.0">
+  <ServerManagerState version="3.0.0">
     <Proxy group="animation" type="PVAnimationScene" id="6" servers="16">
       <Property name="Caching" id="6.Caching" number_of_elements="1">
         <Element index="0" value="0"/>

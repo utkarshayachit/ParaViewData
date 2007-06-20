@@ -1,5 +1,5 @@
 <ParaView>
-  <ServerManagerState version="2.9.10">
+  <ServerManagerState version="3.0.0">
     <Proxy group="displays" type="LODDisplay" id="25">
       <Property name="Input" id="25.Input" number_of_elements="1">
         <Proxy value="22"/>
