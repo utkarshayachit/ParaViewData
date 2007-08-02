@@ -1537,33 +1537,6 @@
       </Property>
       <Property name="TimestepValues" id="4.TimestepValues"/>
     </Proxy>
-    <Proxy group="views" type="ElementInspectorView" id="51" servers="20">
-      <Property name="Displays" id="51.Displays" number_of_elements="0">
-        <Domain name="groups" id="51.Displays.groups">
-          <Group value="displays"/>
-        </Domain>
-      </Property>
-      <Property name="GUISize" id="51.GUISize" number_of_elements="2">
-        <Element index="0" value="300"/>
-        <Element index="1" value="300"/>
-        <Domain name="range" id="51.GUISize.range">
-          <Min index="0" value="0"/>
-          <Min index="1" value="0"/>
-        </Domain>
-      </Property>
-      <Property name="ViewTime" id="51.ViewTime" number_of_elements="1">
-        <Element index="0" value="0"/>
-        <Domain name="range" id="51.ViewTime.range"/>
-      </Property>
-      <Property name="WindowPosition" id="51.WindowPosition" number_of_elements="2">
-        <Element index="0" value="0"/>
-        <Element index="1" value="0"/>
-        <Domain name="range" id="51.WindowPosition.range">
-          <Min index="0" value="0"/>
-          <Min index="1" value="0"/>
-        </Domain>
-      </Property>
-    </Proxy>
     <Proxy group="rendermodules" type="LODRenderModule" id="7" servers="20">
       <Property name="CacheLimit" id="7.CacheLimit" number_of_elements="1">
         <Element index="0" value="102400"/>
@@ -1975,7 +1948,6 @@
       <Item id="4" name="TimeKeeper"/>
     </ProxyCollection>
     <ProxyCollection name="view_modules">
-      <Item id="51" name="ElementInspectorView1"/>
       <Item id="7" name="LODRenderModule1"/>
     </ProxyCollection>
     <CompoundProxyDefinitions/>
