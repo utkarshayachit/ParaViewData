@@ -787,6 +787,10 @@
         <Domain name="groups" id="68.ClipFunction.groups">
           <Group value="implicit_functions"/>
         </Domain>
+        <Domain name="proxy_list" id="68.ClipFunction.proxy_list">
+          <Proxy value="71"/>
+          <Proxy value="72"/>
+        </Domain>
       </Property>
       <Property name="Input" id="68.Input" number_of_elements="1">
         <Proxy value="22"/>
