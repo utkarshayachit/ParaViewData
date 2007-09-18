@@ -1444,14 +1444,18 @@
       </Property>
     </Proxy>
     <Proxy group="filters" type="CTHPart" id="55" servers="1">
-      <Property name="AddVolumeArrayName" id="55.AddVolumeArrayName" number_of_elements="1">
+      <Property name="AddDoubleVolumeArrayName" id="55.AddDoubleVolumeArrayName" number_of_elements="1">
         <Element index="0" value="Fractal Volume Fraction"/>
-        <Domain name="array_list" id="55.AddVolumeArrayName.array_list">
+        <Domain name="array_list" id="55.AddDoubleVolumeArrayName.array_list">
           <String text="TestX"/>
-          <String text="BlockId"/>
-          <String text="Depth"/>
           <String text="Fractal Volume Fraction"/>
         </Domain>
+      </Property>
+      <Property name="AddFloatVolumeArrayName" id="238.AddFloatVolumeArrayName">
+        <Domain name="array_list" id="238.AddFloatVolumeArrayName.array_list"/>
+      </Property>
+      <Property name="AddUnsignedCharVolumeArrayName" id="238.AddUnsignedCharVolumeArrayName">
+        <Domain name="array_list" id="238.AddUnsignedCharVolumeArrayName.array_list"/>
       </Property>
       <Property name="ClipPlane" id="55.ClipPlane" number_of_elements="1">
         <Proxy value="137"/>
