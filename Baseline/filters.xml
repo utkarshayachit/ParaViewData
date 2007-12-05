@@ -1,11 +1,12 @@
 <MyCompoundProxies>
-  <CompoundProxyDefinition name="MyElevation">
-    <CompoundProxy id="4">
+  <CustomProxyDefinition name="MyElevation" group="filters">
+    <CompoundSourceProxy id="4">
       <ExposedProperties>
         <Property name="HighPoint" proxy_name="first" exposed_name="HighPoint"/>
         <Property name="Input" proxy_name="first" exposed_name="Input"/>
       </ExposedProperties>
-      <Proxy group="filters" type="ElevationFilter" id="5" compound_name="first" consumable="1">
+      <OutputPort name="Output" proxy="first" port_index="0"/>
+      <Proxy group="filters" type="ElevationFilter" id="5" compound_name="first">
         <Property name="HighPoint" id="5.HighPoint" number_of_elements="3">
           <Element index="0" value="0"/>
           <Element index="1" value="0"/>
@@ -31,15 +32,16 @@
           <Domain name="range" id="5.ScalarRange.range"/>
         </Property>
       </Proxy>
-    </CompoundProxy>
-  </CompoundProxyDefinition>
-  <CompoundProxyDefinition name="MyNormals">
-    <CompoundProxy id="6">
+    </CompoundSourceProxy>
+  </CustomProxyDefinition>
+  <CustomProxyDefinition name="MyNormals" group="filters">
+    <CompoundSourceProxy id="6">
       <ExposedProperties>
         <Property name="HighPoint" proxy_name="first" exposed_name="HighPoint"/>
         <Property name="Input" proxy_name="first" exposed_name="Input"/>
       </ExposedProperties>
-      <Proxy group="filters" type="PolyDataNormals" id="7" compound_name="first" consumable="1">
+      <OutputPort name="Output" proxy="first" port_index="0"/>
+      <Proxy group="filters" type="PolyDataNormals" id="7" compound_name="first">
         <Property name="ComputeCellNormals" id="7.ComputeCellNormals" number_of_elements="1">
           <Element index="0" value="0"/>
           <Domain name="bool" id="7.ComputeCellNormals.bool"/>
@@ -81,7 +83,7 @@
           <Domain name="bool" id="7.Splitting.bool"/>
         </Property>
       </Proxy>
-    </CompoundProxy>
-  </CompoundProxyDefinition>
+    </CompoundSourceProxy>
+  </CustomProxyDefinition>
 </MyCompoundProxies>
 
