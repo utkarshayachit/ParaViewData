@@ -15,10 +15,19 @@
         <DataArray type="Float64" Name="Mass" format="binary" RangeMin="267.35925845" RangeMax="267.35925845">
           AQAAAACAAAAIAAAAEAAAAA==eJxzOH2idf/WAgcAFRkEfQ==
         </DataArray>
-        <DataArray type="Float64" Name="OBB" NumberOfComponents="12" format="binary" RangeMin="11.0911556" RangeMax="11.0911556">
-          AQAAAACAAABgAAAAIgAAAA==eJxjYAABjgNgikEASsP4Cg4MeIEAHvmKpvUsHA4A7DIFBg==
+        <DataArray type="Float64" Name="Boudning Box Origin" NumberOfComponents="3" format="binary" RangeMin="5.8309518948" RangeMax="5.8309518948">
+          AQAAAACAAAAYAAAAFQAAAA==eJxjYAABjgNgikEASnMcAAAVmAJh
         </DataArray>
-        <DataArray type="Float64" Name="OBB Dimensions" NumberOfComponents="3" format="binary" RangeMin="9.4347089268" RangeMax="9.4347089268">
+        <DataArray type="Float64" Name="Boudning Box Axis 1" NumberOfComponents="3" format="binary" RangeMin="8" RangeMax="8">
+          AQAAAACAAAAYAAAAEAAAAA==eJxjYAABBQcGNAAABpgAYQ==
+        </DataArray>
+        <DataArray type="Float64" Name="Boudning Box Axis 2" NumberOfComponents="3" format="binary" RangeMin="4" RangeMax="4">
+          AQAAAACAAAAYAAAADwAAAA==eJxjYEAGAg4wFgAC+ABR
+        </DataArray>
+        <DataArray type="Float64" Name="Boudning Box Axis 3" NumberOfComponents="3" format="binary" RangeMin="3.0022878831" RangeMax="3.0022878831">
+          AQAAAACAAAAYAAAAEQAAAA==eJxjYEAHFU3rWTgcAAiKAfY=
+        </DataArray>
+        <DataArray type="Float64" Name="Boudning Box Length" NumberOfComponents="3" format="binary" RangeMin="9.4347089268" RangeMax="9.4347089268">
           AQAAAACAAAAYAAAAGQAAAA==eJxjYAABBQcwxSAApCua1rNwOAAAEeoCpg==
         </DataArray>
         <DataArray type="Float64" Name="VolumeWeightedAverage-Pressure (dynes/cm^2^)" format="binary" RangeMin="9308568.1628" RangeMax="9308568.1628">
@@ -37,7 +46,7 @@
       <CellData>
       </CellData>
       <Points>
-        <DataArray type="Float64" Name="Array 0x89db8c0" NumberOfComponents="3" format="binary" RangeMin="2.6925909001" RangeMax="2.6925909001">
+        <DataArray type="Float64" Name="Array 0x88ee220" NumberOfComponents="3" format="binary" RangeMin="2.6925909001" RangeMax="2.6925909001">
           AQAAAACAAAAYAAAAIQAAAA==eJxbUq7mw8zwwf74jo3SzAwMB3521zWyMvzYDwB17goN
         </DataArray>
       </Points>
