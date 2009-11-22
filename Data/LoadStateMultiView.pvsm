@@ -1058,7 +1058,7 @@
       <SubProxy name="VolumeUpdateSuppressor" servers="21"/>
       <SubProxy name="VolumeZSweepMapper" servers="20"/>
     </Proxy>
-    <Proxy group="lookup_tables" type="PVLookupTable" id="454" servers="1">
+    <Proxy group="lookup_tables" type="PVLookupTable" id="454" servers="20">
       <Property name="ColorSpace" id="454.ColorSpace" number_of_elements="1">
         <Element index="0" value="1"/>
         <Domain name="enum" id="454.ColorSpace.enum">
@@ -1108,7 +1108,7 @@
         </Domain>
       </Property>
     </Proxy>
-    <Proxy group="lookup_tables" type="PVLookupTable" id="163" servers="1">
+    <Proxy group="lookup_tables" type="PVLookupTable" id="163" servers="20">
       <Property name="ColorSpace" id="163.ColorSpace" number_of_elements="1">
         <Element index="0" value="1"/>
         <Domain name="enum" id="163.ColorSpace.enum">
