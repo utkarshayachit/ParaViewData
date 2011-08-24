@@ -1,0 +1,128 @@
+<Xdmf Version="2.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <Domain>
+    <Grid CollectionType="Temporal" GridType="Collection" Name="Mesh Spatial_Domain">
+      <Grid CollectionType="Spatial" GridType="Collection">
+        <Time Value="0.0" />
+        <Grid GridType="Uniform">
+          <Topology NumberOfElements="758" Type="Tetrahedron">
+            <DataItem DataType="Int" Dimensions="758 4" Format="HDF">poisson_3d0.h5:/elementsSpatial_Domain0</DataItem>
+          </Topology>
+          <Geometry Type="XYZ">
+            <DataItem DataType="Float" Dimensions="223 3" Format="HDF" Precision="8">poisson_3d0.h5:/nodesSpatial_Domain0</DataItem>
+          </Geometry>
+          <Set Ghost="1" SetType="Node">
+            <DataItem DataType="Int" Dimensions="51" Format="HDF">poisson_3d0.h5:/ghostNodesSpatial_Domain0</DataItem>
+          </Set>
+          <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+            <DataItem DataType="Int" Dimensions="223" Format="HDF">poisson_3d0.h5:/nodeMaterialTypes0</DataItem>
+          </Attribute>
+          <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+            <DataItem DataType="Int" Dimensions="758" Format="HDF">poisson_3d0.h5:/elementMaterialTypes0</DataItem>
+          </Attribute>
+          <Attribute AttributeType="Scalar" Center="Node" Name="nodeGhostTypes">
+            <DataItem DataType="Int" Dimensions="223" Format="HDF">poisson_3d0.h5:/nodeGhostTypes0</DataItem>
+          </Attribute>
+          <Attribute AttributeType="Scalar" Center="Cell" Name="elementGhostTypes">
+            <DataItem DataType="Int" Dimensions="758" Format="HDF">poisson_3d0.h5:/elementGhostTypes0</DataItem>
+          </Attribute>
+          <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+            <DataItem DataType="Float" Dimensions="223" Format="HDF" Precision="8">poisson_3d0.h5:/u00</DataItem>
+          </Attribute>
+        </Grid>
+        <Grid GridType="Uniform">
+          <Topology NumberOfElements="770" Type="Tetrahedron">
+            <DataItem DataType="Int" Dimensions="770 4" Format="HDF">poisson_3d1.h5:/elementsSpatial_Domain0</DataItem>
+          </Topology>
+          <Geometry Type="XYZ">
+            <DataItem DataType="Float" Dimensions="224 3" Format="HDF" Precision="8">poisson_3d1.h5:/nodesSpatial_Domain0</DataItem>
+          </Geometry>
+          <Set Ghost="1" SetType="Node">
+            <DataItem DataType="Int" Dimensions="53" Format="HDF">poisson_3d1.h5:/ghostNodesSpatial_Domain0</DataItem>
+          </Set>
+          <Set Ghost="1" SetType="Cell">
+            <DataItem DataType="Int" Dimensions="232" Format="HDF">poisson_3d1.h5:/ghostElementsSpatial_Domain0</DataItem>
+          </Set>
+          <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+            <DataItem DataType="Int" Dimensions="224" Format="HDF">poisson_3d1.h5:/nodeMaterialTypes0</DataItem>
+          </Attribute>
+          <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+            <DataItem DataType="Int" Dimensions="770" Format="HDF">poisson_3d1.h5:/elementMaterialTypes0</DataItem>
+          </Attribute>
+          <Attribute AttributeType="Scalar" Center="Node" Name="nodeGhostTypes">
+            <DataItem DataType="Int" Dimensions="224" Format="HDF">poisson_3d1.h5:/nodeGhostTypes0</DataItem>
+          </Attribute>
+          <Attribute AttributeType="Scalar" Center="Cell" Name="elementGhostTypes">
+            <DataItem DataType="Int" Dimensions="770" Format="HDF">poisson_3d1.h5:/elementGhostTypes0</DataItem>
+          </Attribute>
+          <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+            <DataItem DataType="Float" Dimensions="224" Format="HDF" Precision="8">poisson_3d1.h5:/u00</DataItem>
+          </Attribute>
+        </Grid>
+      </Grid>
+      <Grid CollectionType="Spatial" GridType="Collection">
+        <Time Value="1.0" />
+        <Grid GridType="Uniform">
+          <Topology NumberOfElements="758" Type="Tetrahedron">
+            <DataItem DataType="Int" Dimensions="758 4" Format="HDF">poisson_3d0.h5:/elementsSpatial_Domain1</DataItem>
+          </Topology>
+          <Geometry Type="XYZ">
+            <DataItem DataType="Float" Dimensions="223 3" Format="HDF" Precision="8">poisson_3d0.h5:/nodesSpatial_Domain1</DataItem>
+          </Geometry>
+          <Set Ghost="1" SetType="Node">
+            <DataItem DataType="Int" Dimensions="51" Format="HDF">poisson_3d0.h5:/ghostNodesSpatial_Domain1</DataItem>
+          </Set>
+          <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+            <DataItem DataType="Int" Dimensions="223" Format="HDF">poisson_3d0.h5:/nodeMaterialTypes1</DataItem>
+          </Attribute>
+          <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+            <DataItem DataType="Int" Dimensions="758" Format="HDF">poisson_3d0.h5:/elementMaterialTypes1</DataItem>
+          </Attribute>
+          <Attribute AttributeType="Scalar" Center="Node" Name="nodeGhostTypes">
+            <DataItem DataType="Int" Dimensions="223" Format="HDF">poisson_3d0.h5:/nodeGhostTypes1</DataItem>
+          </Attribute>
+          <Attribute AttributeType="Scalar" Center="Cell" Name="elementGhostTypes">
+            <DataItem DataType="Int" Dimensions="758" Format="HDF">poisson_3d0.h5:/elementGhostTypes1</DataItem>
+          </Attribute>
+          <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+            <DataItem DataType="Float" Dimensions="223" Format="HDF" Precision="8">poisson_3d0.h5:/u01</DataItem>
+          </Attribute>
+          <Attribute AttributeType="Scalar" Center="Node" Name="u0_analytical">
+            <DataItem DataType="Float" Dimensions="223" Format="HDF" Precision="8">poisson_3d0.h5:/u0_analytical1</DataItem>
+          </Attribute>
+        </Grid>
+        <Grid GridType="Uniform">
+          <Topology NumberOfElements="770" Type="Tetrahedron">
+            <DataItem DataType="Int" Dimensions="770 4" Format="HDF">poisson_3d1.h5:/elementsSpatial_Domain1</DataItem>
+          </Topology>
+          <Geometry Type="XYZ">
+            <DataItem DataType="Float" Dimensions="224 3" Format="HDF" Precision="8">poisson_3d1.h5:/nodesSpatial_Domain1</DataItem>
+          </Geometry>
+          <Set Ghost="1" SetType="Node">
+            <DataItem DataType="Int" Dimensions="53" Format="HDF">poisson_3d1.h5:/ghostNodesSpatial_Domain1</DataItem>
+          </Set>
+          <Set Ghost="1" SetType="Cell">
+            <DataItem DataType="Int" Dimensions="232" Format="HDF">poisson_3d1.h5:/ghostElementsSpatial_Domain1</DataItem>
+          </Set>
+          <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+            <DataItem DataType="Int" Dimensions="224" Format="HDF">poisson_3d1.h5:/nodeMaterialTypes1</DataItem>
+          </Attribute>
+          <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+            <DataItem DataType="Int" Dimensions="770" Format="HDF">poisson_3d1.h5:/elementMaterialTypes1</DataItem>
+          </Attribute>
+          <Attribute AttributeType="Scalar" Center="Node" Name="nodeGhostTypes">
+            <DataItem DataType="Int" Dimensions="224" Format="HDF">poisson_3d1.h5:/nodeGhostTypes1</DataItem>
+          </Attribute>
+          <Attribute AttributeType="Scalar" Center="Cell" Name="elementGhostTypes">
+            <DataItem DataType="Int" Dimensions="770" Format="HDF">poisson_3d1.h5:/elementGhostTypes1</DataItem>
+          </Attribute>
+          <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+            <DataItem DataType="Float" Dimensions="224" Format="HDF" Precision="8">poisson_3d1.h5:/u01</DataItem>
+          </Attribute>
+          <Attribute AttributeType="Scalar" Center="Node" Name="u0_analytical">
+            <DataItem DataType="Float" Dimensions="224" Format="HDF" Precision="8">poisson_3d1.h5:/u0_analytical1</DataItem>
+          </Attribute>
+        </Grid>
+      </Grid>
+    </Grid>
+  </Domain>
+</Xdmf>
