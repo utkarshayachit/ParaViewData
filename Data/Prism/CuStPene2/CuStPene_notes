@@ -1,0 +1,23 @@
+
+
+This dataset is from a CTH simulation of an aluminum penetrator into a
+steel plate. The simulation is 2D axisymmetric, so the x-coordinate
+gives the radius and the y-coordinate is the height z.
+
+The purpose is to test the calculation of "derived variables" in the
+CTH reader (spcth files). spcth files contain variable values for each
+element in the domain. To reduce file sizes, CTH does not write
+derived variables to spcth files because derived variables can be
+computed from the variables that are written. CTH also write hscth
+files, which include tracer data. Tracers record variable values at
+particular locations in the domain, and are much smaller than spcth
+files. CTH does write derived variables to hscth files.
+
+The attached dataset includes an spcth file and an hscth file, and
+SESAME files for copper and steel.
+
+The CTH data has been reviewed and approved for unlimited release by
+Sandia National Laboratories as SAND 2011-4874P and SAND 2011-4875P.
+
+Greg Weirs
+March 9, 2012
